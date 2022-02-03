@@ -18,9 +18,23 @@ const PageFood = () => {
       <div>
         <h4>Latest Recipes</h4>
 
-        <div>
-          <div>
+        <div className="mt-8 grid lg:grid-cols-3 gap-10">
+          <div className="card">
             <img src="img/stew.jpg" alt="stew" />
+            <div>
+              <span>5 Bean Chili Stew</span>
+              <span>Recipe by Mario</span>
+            </div>
+          </div>
+          <div className="card">
+            <img src="img/curry.jpg" alt="stew" />
+            <div>
+              <span>5 Bean Chili Stew</span>
+              <span>Recipe by Mario</span>
+            </div>
+          </div>
+          <div className="card">
+            <img src="img/noodles.jpg" alt="stew" />
             <div>
               <span>5 Bean Chili Stew</span>
               <span>Recipe by Mario</span>

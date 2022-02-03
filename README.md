@@ -6,6 +6,9 @@ Lisa's Tailwindcss react components
 
 ## Tailwindcss
 
+Install Tailwind CSS with Create React App
+https://tailwindcss.com/docs/guides/create-react-app
+
 https://tailwindcomponents.com/cheatsheet/
 https://tailwindcss.com/
 

@@ -10,8 +10,13 @@ const Navbar = () => {
       </div>
       <ul>
         <li>
-          <a href="#">
+          <a href="/">
             <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="/food">
+            <span>Food</span>
           </a>
         </li>
         <li>
