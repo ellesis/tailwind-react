@@ -1,7 +1,14 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#FF6363'
+      },
+      fontFamily: {
+        body: ['Nunito']
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }
