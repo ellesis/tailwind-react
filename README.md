@@ -1,3 +1,21 @@
+# Lisa's Tailwindcss-react
+
+React + Tailwindcss
+
+Lisa's Tailwindcss react components
+
+## Tailwindcss
+
+https://tailwindcomponents.com/cheatsheet/
+https://tailwindcss.com/
+
+## Heroicons
+
+svg icons
+https://heroicons.com/
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
