@@ -22,7 +22,7 @@ const PageFood = () => {
       </div>
 
       <header>
-        <h2 className='text-grey-700 text-6xl font-semibold'>Recipes</h2>
+        <h2 className='title'>Recipes</h2>
         <h3 className='text-2xl font-semibold'>For Ninjas</h3>
       </header>
 
