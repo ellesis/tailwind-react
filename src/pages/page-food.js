@@ -27,9 +27,10 @@ const PageFood = () => {
       </header>
 
       <div>
-        <h4>Latest Recipes</h4>
+        <h4 className='font-bold mt-12 pb-2'>Latest Recipes</h4>
 
         <div className='mt-8 grid lg:grid-cols-3 gap-10'>
+          {/* card */}
           <div className='card hover:shadow-lg'>
             <img src='img/stew.jpg' alt='stew' />
             <div>
@@ -37,6 +38,7 @@ const PageFood = () => {
               <span>Recipe by Mario</span>
             </div>
           </div>
+
           <div className='card hover:shadow-lg'>
             <img src='img/curry.jpg' alt='stew' />
             <div>
@@ -44,6 +46,7 @@ const PageFood = () => {
               <span>Recipe by Mario</span>
             </div>
           </div>
+
           <div className='card hover:shadow-lg'>
             <img src='img/noodles.jpg' alt='stew' />
             <div>
@@ -53,7 +56,7 @@ const PageFood = () => {
           </div>
         </div>
 
-        <h4>Most Popular</h4>
+        <h4 className='font-bold mt-12 pb-2'>Most Popular</h4>
 
         <div></div>
       </div>
