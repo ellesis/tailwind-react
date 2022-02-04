@@ -12,6 +12,8 @@ function App() {
       <Routes>
         <Route path='/components' element={<PageComponents />} />
         <Route path='/food' element={<PageFood />} />
+        <Route path='/about' element={<PageFood />} />
+        <Route path='/contact' element={<PageFood />} />
         <Route path='/' element={<PageFront />} />
       </Routes>
     </Layout>
