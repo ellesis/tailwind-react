@@ -106,7 +106,7 @@ const Navbar = () => {
 
         <li className='py-1'>
           <NavLink
-            to={'/about'}
+            to={'/egg'}
             className={({ isActive }) =>
               isActive
                 ? 'px-4 flex justify-end border-r-4 border-primary'
