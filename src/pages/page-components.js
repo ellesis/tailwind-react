@@ -1,6 +1,6 @@
 import React from 'react'
-import ChitChat from '../components/chit-chat'
-import AvatarCard from '../components/avatar-card'
+import ChitChat from '../components/cards/chit-chat'
+import AvatarCard from '../components/cards/avatar-card'
 
 const PageComponents = () => {
   return (
@@ -120,6 +120,234 @@ const PageComponents = () => {
           <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'>
             #winter
           </span>
+        </div>
+      </div>
+
+      {/* Table */}
+      <div className='title'>Table-1</div>
+      <div className='flex flex-col'>
+        <div className='overflow-x-auto sm:-mx-6 lg:-mx-8'>
+          <div className='py-2 inline-block min-w-full sm:px-6 lg:px-8'>
+            <div className='overflow-hidden'>
+              <table className='min-w-full'>
+                <thead className='border-b'>
+                  <tr>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
+                      #
+                    </th>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
+                      First
+                    </th>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
+                      Last
+                    </th>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
+                      Handle
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className='border-b'>
+                    <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>1</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Mark</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Otto</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>@mdo</td>
+                  </tr>
+                  <tr className='bg-white border-b'>
+                    <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>2</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Jacob</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Thornton</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>@fat</td>
+                  </tr>
+                  <tr className='bg-white border-b'>
+                    <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>3</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Larry</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Wild</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Table-small */}
+      <div className='title'>Table-small</div>
+      <div className='flex flex-col'>
+        <div className='overflow-x-auto sm:-mx-6 lg:-mx-8'>
+          <div className='py-2 inline-block min-w-full sm:px-6 lg:px-8'>
+            <div className='overflow-hidden'>
+              <table className='min-w-full text-center'>
+                <thead className='border-b bg-white'>
+                  <tr>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-2'>
+                      #
+                    </th>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-2'>
+                      First
+                    </th>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-2'>
+                      Last
+                    </th>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-2'>
+                      Handle
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className='bg-white border-b'>
+                    <td className='px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900'>1</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-2 whitespace-nowrap'>Mark</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-2 whitespace-nowrap'>Otto</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-2 whitespace-nowrap'>@mdo</td>
+                  </tr>
+                  <tr className='bg-white border-b'>
+                    <td className='px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900'>2</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-2 whitespace-nowrap'>Jacob</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-2 whitespace-nowrap'>Thornton</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-2 whitespace-nowrap'>@fat</td>
+                  </tr>
+                  <tr className='bg-white border-b'>
+                    <td className='px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900'>3</td>
+                    <td
+                      colspan='2'
+                      className='text-sm text-gray-900 font-light px-6 py-2 whitespace-nowrap text-center'
+                    >
+                      Larry the Bird
+                    </td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-2 whitespace-nowrap'>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Table-Bordered */}
+      <div className='title'>Table-Bordered</div>
+      <div className='flex flex-col'>
+        <div className='overflow-x-auto sm:-mx-6 lg:-mx-8'>
+          <div className='py-2 inline-block min-w-full sm:px-6 lg:px-8'>
+            <div className='overflow-hidden'>
+              <table className='min-w-full border text-center'>
+                <thead className='border-b'>
+                  <tr>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-4 border-r'>
+                      #
+                    </th>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-4 border-r'>
+                      First
+                    </th>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-4 border-r'>
+                      Last
+                    </th>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-4'>
+                      Handle
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className='border-b'>
+                    <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 border-r'>1</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap border-r'>Mark</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap border-r'>Otto</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>@mdo</td>
+                  </tr>
+                  <tr className='bg-white border-b'>
+                    <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 border-r'>2</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap border-r'>Jacob</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap border-r'>Thornton</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>@fat</td>
+                  </tr>
+                  <tr className='bg-white border-b'>
+                    <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 border-r'>3</td>
+                    <td
+                      colspan='2'
+                      className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-center border-r'
+                    >
+                      Larry the Bird
+                    </td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Table2 */}
+      <div className='title'>Table-2</div>
+      <div className='flex flex-col'>
+        <div className='overflow-x-auto sm:-mx-6 lg:-mx-8'>
+          <div className='py-2 inline-block min-w-full sm:px-6 lg:px-8'>
+            <div className='overflow-hidden'>
+              <table className='min-w-full text-center'>
+                <thead className='border-b'>
+                  <tr>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-4'>
+                      Class
+                    </th>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-4'>
+                      Heading
+                    </th>
+                    <th scope='col' className='text-sm font-medium text-gray-900 px-6 py-4'>
+                      Heading
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className='border-b'>
+                    <td className='text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap'>Default</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                  </tr>
+                  <tr className='border-b bg-blue-100 border-blue-200'>
+                    <td className='text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap'>Primary</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                  </tr>
+                  <tr className='border-b bg-purple-100 border-purple-200'>
+                    <td className='text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap'>Secondary</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                  </tr>
+                  <tr className='border-b bg-green-100 border-green-200'>
+                    <td className='text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap'>Success</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                  </tr>
+                  <tr className='border-b bg-red-100 border-red-200'>
+                    <td className='text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap'>Danger</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                  </tr>
+                  <tr className='border-b bg-yellow-100 border-yellow-200'>
+                    <td className='text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap'>Warning</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                  </tr>
+                  <tr className='border-b bg-indigo-100 border-indigo-200'>
+                    <td className='text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap'>Info</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                  </tr>
+                  <tr className='border-b bg-gray-50 border-gray-200'>
+                    <td className='text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap'>Light</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                    <td className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                  </tr>
+                  <tr className='border-b bg-gray-800 boder-gray-900'>
+                    <td className='text-sm text-white font-medium px-6 py-4 whitespace-nowrap'>Dark</td>
+                    <td className='text-sm text-white font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                    <td className='text-sm text-white font-light px-6 py-4 whitespace-nowrap'>Cell</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </>
