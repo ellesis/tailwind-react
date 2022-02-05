@@ -211,7 +211,7 @@ const PageComponents = () => {
                   <tr className='bg-white border-b'>
                     <td className='px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900'>3</td>
                     <td
-                      colspan='2'
+                      colSpan='2'
                       className='text-sm text-gray-900 font-light px-6 py-2 whitespace-nowrap text-center'
                     >
                       Larry the Bird
@@ -264,7 +264,7 @@ const PageComponents = () => {
                   <tr className='bg-white border-b'>
                     <td className='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 border-r'>3</td>
                     <td
-                      colspan='2'
+                      colSpan='2'
                       className='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-center border-r'
                     >
                       Larry the Bird
