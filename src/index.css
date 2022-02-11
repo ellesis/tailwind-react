@@ -16,18 +16,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.title {
-  @apply text-gray-700 text-4xl font-semibold py-4;
+@layer base {
+  h1 {
+    @apply text-5xl font-bold;
+  }
+  h2 {
+    @apply text-4xl font-bold;
+  }
+  h3 {
+    @apply text-3xl font-bold;
+  }
+  h4 {
+    @apply text-2xl font-bold;
+  }
+  h5 {
+    @apply text-xl font-bold;
+  }
+  h6 {
+    @apply text-lg font-bold;
+  }
 }
 
-.card {
-  @apply bg-white rounded overflow-hidden shadow-md relative;
-}
+@layer components {
+  .title {
+    @apply text-gray-700 text-4xl font-semibold py-4;
+  }
 
-.badge {
-  @apply text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2;
-}
+  /* Buttons */
+  /* no-color full round button and hover bigger - bg-secondary-100 text-secondary-200 만 추가하면 원는 색깔 버튼을 만들수 있다. */
+  .btn-rounded-full-hover-bigger {
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300;
+  }
+  /* hover-bg-color buttons */
+  .btn-orange-outlined-rounded-full {
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500;
+  }
+  .btn-purple-outlined-rounded-full {
+    @apply px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2;
+  }
+  /* Outlined buttons */
+  .btn-gray-outlined {
+    @apply bg-transparent text-gray-500 text-sm hover:text-white hover:bg-gray-500 px-2 py-1 border border-gray-500 hover:border-transparent rounded cursor-pointer;
+  }
+  .btn-green-rounded {
+    @apply bg-green-400 hover:bg-green-600 text-green-100 border py-3 px-6 font-semibold rounded;
+  }
 
-.btn {
-  @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+  /* images */
+  .image-full {
+    @apply bg-cover bg-center bg-no-repeat;
+  }
 }

@@ -5,11 +5,11 @@ const Navbar = () => {
   return (
     <nav className='text-right'>
       <div className='flex justify-between items-center'>
-        <h1 className='font-bold uppercase p-4 border-b border-gray-100'>
+        <h3 className='font-bold uppercase p-4 border-b border-gray-100'>
           <a href='/' className='hover:text-gray-700'>
             Tailwindcss-React
           </a>
-        </h1>
+        </h3>
         {/* menu buttons */}
 
         <div className='px-4 cursor-pointer md:hidden' id='burger'>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 
-const Layout = ({ children }) => {
+const NinjaLayout = ({ children }) => {
   return (
     <React.Fragment>
       <div className='grid md:grid-cols-4'>
@@ -14,4 +14,4 @@ const Layout = ({ children }) => {
   )
 }
 
-export default Layout
+export default NinjaLayout

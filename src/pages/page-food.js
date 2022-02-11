@@ -1,14 +1,20 @@
 import React from 'react'
 import NinjaLayout from '../layouts/NinjaLayout'
-import NinjaLogin from '../components/logins/NinjaLogin'
+import BadgedCard from '../components/cards/BadgedCard'
 
 const PageFood = () => {
   return (
     <NinjaLayout>
       <div>Food Ninjas</div>
 
-      {/* login buttons */}
-      <NinjaLogin />
+      <div className='flex justify-center md:justify-end'>
+        <a href='#' className='btn-orange-outlined-rounded-full '>
+          Log in
+        </a>
+        <a href='#' className='btn-orange-outlined-rounded-full ml-2'>
+          Sign up
+        </a>
+      </div>
 
       <header>
         <h2 className='title'>Recipes</h2>
@@ -20,29 +26,9 @@ const PageFood = () => {
 
         <div className='mt-8 grid lg:grid-cols-3 gap-10'>
           {/* card */}
-          <div className='card hover:shadow-lg'>
-            <img src='img/stew.jpg' alt='stew' />
-            <div>
-              <span>5 Bean Chili Stew</span>
-              <span>Recipe by Mario</span>
-            </div>
-          </div>
-
-          <div className='card hover:shadow-lg'>
-            <img src='img/curry.jpg' alt='stew' />
-            <div>
-              <span>5 Bean Chili Stew</span>
-              <span>Recipe by Mario</span>
-            </div>
-          </div>
-
-          <div className='card hover:shadow-lg'>
-            <img src='img/noodles.jpg' alt='stew' />
-            <div>
-              <span>5 Bean Chili Stew</span>
-              <span>Recipe by Mario</span>
-            </div>
-          </div>
+          <BadgedCard imgUrl='img/stew.jpg' title='5 Bean Chili Stew' subTitle='Recipe by Mario' badge='25 mins' />
+          <BadgedCard imgUrl='img/curry.jpg' title='Yellow Curry' subTitle='Recipe by Mario' badge='15 mins' />
+          <BadgedCard imgUrl='img/noodles.jpg' title='Noodles' subTitle='Recipe by Mario' />
         </div>
 
         <h4 className='font-bold mt-12 pb-2'>Most Popular</h4>
@@ -51,9 +37,7 @@ const PageFood = () => {
       </div>
 
       <div className='flex justify-center'>
-        <div className='btn bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300'>
-          Load more
-        </div>
+        <div className='btn-rounded-full-hover-bigger bg-secondary-100 text-secondary-200'>Load more</div>
       </div>
     </NinjaLayout>
   )
