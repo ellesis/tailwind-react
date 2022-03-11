@@ -1,12 +1,12 @@
 import React from 'react'
-import NinjaLayout from '../layouts/NinjaLayout'
+import LayoutNinja from '../layouts/LayoutNinja'
 
 const PageFront = () => {
   return (
-    <NinjaLayout>
-      <div className='title'>PageFront</div>
-      <div className='p-4'></div>
-    </NinjaLayout>
+    <LayoutNinja>
+      <div className="title">PageFront</div>
+      <div className="p-4"></div>
+    </LayoutNinja>
   )
 }
 

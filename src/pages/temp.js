@@ -3,11 +3,11 @@ const links = ['link1', 'link2', 'link3']
 class Header extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { menuOpen: false }
+    this.state = {menuOpen: false}
   }
 
   handleMenuClick() {
-    this.setState((state) => ({ menuOpen: !state.menuOpen }))
+    this.setState((state) => ({menuOpen: !state.menuOpen}))
   }
 
   renderMenuCol() {
