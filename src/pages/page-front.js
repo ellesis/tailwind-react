@@ -1,12 +1,11 @@
 import React from 'react'
-import LayoutNinja from '../layouts/LayoutNinja'
+import Layout from '../layouts/Layout'
 
 const PageFront = () => {
   return (
-    <LayoutNinja>
+    <Layout>
       <div className="title">PageFront</div>
-      <div className="p-4"></div>
-    </LayoutNinja>
+    </Layout>
   )
 }
 
