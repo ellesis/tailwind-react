@@ -7,6 +7,8 @@ import PageEgg from './pages/page-egg'
 import PageLayout from './pages/page-layout'
 import PageMain from './pages/page-main'
 
+import Yokose from './pages/yokose'
+
 import Front from './pages/front'
 import About from './pages/about'
 
@@ -21,6 +23,9 @@ function App() {
       <Route path="/food" element={<PageFood />} />
 
       <Route path="/main" element={<PageMain />} />
+
+      <Route path="/yokose" element={<Yokose />} />
+
       {/* Layout */}
       <Route path="/about" element={<About />} />
       <Route path="/" element={<Front />} />
