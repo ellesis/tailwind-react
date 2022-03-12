@@ -43,7 +43,7 @@ export const menuItems = [
   },
   {
     href: '/food',
-    title: 'Recipes',
+    title: 'Food Recipes',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -1,17 +1,18 @@
 import React from 'react'
-import {Link, NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
-const Navbar = () => {
+export default function SidebarNinjaOrigin() {
   return (
     <nav className="text-right">
       <div className="flex justify-between items-center">
+        {/* Title */}
         <h3 className="font-bold uppercase p-4 border-b border-gray-100">
           <a href="/" className="hover:text-gray-700">
             Tailwindcss-React
           </a>
         </h3>
-        {/* menu buttons */}
 
+        {/* hambuer Menu */}
         <div className="px-4 cursor-pointer md:hidden" id="burger">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -24,6 +25,8 @@ const Navbar = () => {
           </svg>
         </div>
       </div>
+
+      {/* Left side menu */}
       <ul className="text-sm mt-6 hidden md:block" id="menu">
         <li className="text-gray-700 font-bold py-1">
           <NavLink
@@ -187,5 +190,3 @@ const Navbar = () => {
     </nav>
   )
 }
-
-export default Navbar

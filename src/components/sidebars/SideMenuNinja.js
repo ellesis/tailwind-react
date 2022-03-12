@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom'
 
 import {menuItems} from '../../data/menu'
 
-function SideMenuNinja() {
+export default function SideMenuNinja() {
   return (
     <nav>
       <ul>
@@ -26,5 +26,3 @@ function SideMenuNinja() {
     </nav>
   )
 }
-
-export default SideMenuNinja

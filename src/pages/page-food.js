@@ -1,10 +1,10 @@
 import React from 'react'
-import LayoutNinja from '../layouts/LayoutNinja'
+import LayoutNinjaOrigin from '../layouts/LayoutNinjaOrigin'
 import BadgedCard from '../components/cards/BadgedCard'
 
 const PageFood = () => {
   return (
-    <LayoutNinja>
+    <LayoutNinjaOrigin>
       <div>Food Ninjas</div>
 
       <div className="flex justify-center md:justify-end">
@@ -39,7 +39,7 @@ const PageFood = () => {
       <div className="flex justify-center">
         <div className="btn-rounded-full-hover-bigger bg-secondary-100 text-secondary-200">Load more</div>
       </div>
-    </LayoutNinja>
+    </LayoutNinjaOrigin>
   )
 }
 
