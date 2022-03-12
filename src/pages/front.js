@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../layouts/Layout'
 
-const PageFront = () => {
+const Front = () => {
   return (
     <Layout>
-      <div className="title">PageFront</div>
+      <div className="title">Home: Page-Front</div>
     </Layout>
   )
 }
 
-export default PageFront
+export default Front
