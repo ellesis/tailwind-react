@@ -8,12 +8,12 @@ export default function LayoutYokose({children}) {
   return (
     <div className="min-h-screen flex flex-col">
       <div className="flex flex-col md:flex-row flex-1">
-        <aside className="w-full md:w-60">
+        <aside className="w-full md:w-64 bg-tints-800 text-white">
           {/* Title */}
           <a href="/" className="hover:text-gray-700">
-            <div className="text-right font-bold uppercase p-4 border-b border-gray-100">
-              <AiOutlineStock size={50} />
-              {siteTitle}
+            <div className=" flex flex-row justify-between p-3 border-b border-gray-100 ">
+              <AiOutlineStock size={40} />
+              <span className="text-right font-bold  text-2xl">{siteTitle}</span>
             </div>
           </a>
 

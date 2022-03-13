@@ -9,17 +9,17 @@ export default function SideMenuReactIcons() {
       <ul>
         {menuItems.map(({href, title, iconTag}) => {
           return (
-            <li key={title} className="text-gray-700 font-bold py-1">
+            <li key={title} className="h-12 bg-tints-800 text-white font-bold ">
               <NavLink
                 to={href}
                 className={({isActive}) =>
                   isActive
-                    ? 'px-4 flex justify-end border-r-4 border-primary'
+                    ? 'px-4 flex justify-end border-r-4 border-green-500'
                     : 'px-4 flex justify-end border-r-4 border-white'
                 }
               >
-                <span>{title}</span>
                 {iconTag}
+                <span>{title}</span>
               </NavLink>
             </li>
           )
