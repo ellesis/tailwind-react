@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PageLayout = () => {
+export default function PageLayout() {
   return (
     <>
       <div className="container mx-auto">
@@ -17,5 +17,3 @@ const PageLayout = () => {
     </>
   )
 }
-
-export default PageLayout

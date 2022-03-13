@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-const PageEgg = () => {
+export default function PageEgg() {
   return (
     <div className="bg-white h-screen flex flex-col justify-center items-center">
       <h1 className="lg:text-9xl mg:text-7xl  sm:text-5xl text-3xl font-black mb-14">EggCellent</h1>
@@ -11,5 +11,3 @@ const PageEgg = () => {
     </div>
   )
 }
-
-export default PageEgg

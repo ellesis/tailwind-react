@@ -2,14 +2,14 @@ import React from 'react'
 import ChitChat from '../components/cards/ChitChat'
 import AvatarCard from '../components/cards/AvatarCard'
 
-// 원하는 컴포넌트를 바로 만들어 사용할 수 있다
+// Make Component here
 const BtnPrimary = (props) => {
   return (
     <button className="bg-blue-500 text-white font-medium px-4 py-2 rounded hover:bg-blue-600">{props.children}</button>
   )
 }
 
-const PageComponents = () => {
+export default function PageComponents() {
   const people = [
     {
       name: 'Jane Cooper',
@@ -448,5 +448,3 @@ const PageComponents = () => {
     </>
   )
 }
-
-export default PageComponents

@@ -1,7 +1,7 @@
 import React from 'react'
 import NavMenuBlue from '../components/navbars/NavMenuBlue'
 
-const PageMain = () => {
+export default function PageMain() {
   return (
     <main>
       <div className="bg-indigo-800 shadow-xl m-6 rounded">
@@ -20,5 +20,3 @@ const PageMain = () => {
     </main>
   )
 }
-
-export default PageMain

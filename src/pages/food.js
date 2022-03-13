@@ -2,7 +2,7 @@ import React from 'react'
 import LayoutNinjaOrigin from '../layouts/LayoutNinjaOrigin'
 import BadgedCard from '../components/cards/BadgedCard'
 
-const PageFood = () => {
+export default function Food() {
   return (
     <LayoutNinjaOrigin>
       <div>Food Ninjas</div>
@@ -42,5 +42,3 @@ const PageFood = () => {
     </LayoutNinjaOrigin>
   )
 }
-
-export default PageFood
