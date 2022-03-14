@@ -18,7 +18,7 @@ export default function Layout({children}) {
           {/* Left Side Menu */}
           <SideMenuNinja />
         </aside>
-        <main className="flex-1 px-16 py-6 bg-gray-100">{children}</main>
+        <main className="h-screen  flex-1 px-16 py-6 bg-gray-100">{children}</main>
       </div>
     </div>
   )

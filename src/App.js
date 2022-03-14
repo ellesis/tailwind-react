@@ -13,6 +13,7 @@ import Green from './pages/green'
 import Contact from './pages/contact'
 import Front from './pages/front'
 import About from './pages/about'
+import RightSlide from './pages/right-slide'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
 
       <Route path="/yokose" element={<Yokose />} />
       <Route path="/green" element={<Green />} />
+      <Route path="/right-slide" element={<RightSlide />} />
 
       {/* Layout */}
       <Route path="/about" element={<About />} />
