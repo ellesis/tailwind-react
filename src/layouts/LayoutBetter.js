@@ -2,10 +2,10 @@ import React, {useState} from 'react'
 import SideMenuBetter from '../components/sidebars/SideMenuBetter'
 
 export default function LayoutBetter({children}) {
-  const [isMobile, setMobile] = useState(false)
+  const [isMobile, setIsMobile] = useState(false)
 
   const handleMenuBtnClick = () => {
-    setMobile(!isMobile)
+    setIsMobile(!isMobile)
   }
 
   return (
