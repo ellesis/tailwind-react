@@ -63,7 +63,7 @@ export const menuItems = [
   },
   {
     href: '/Better',
-    title: 'Layout Better',
+    title: 'Better Layout',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ export const menuItems = [
   },
   {
     href: '/right-slide',
-    title: 'Layout Right Slide',
+    title: 'Right Slide Layout',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
