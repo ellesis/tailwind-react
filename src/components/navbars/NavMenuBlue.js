@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 
+import {menuItems} from '../../data/menu'
+
 const NavMenuBlue = () => {
   const links = ['link1', 'link2', 'link3']
 
