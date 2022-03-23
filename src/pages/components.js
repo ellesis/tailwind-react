@@ -9,7 +9,7 @@ const BtnPrimary = (props) => {
   )
 }
 
-export default function PageComponents() {
+export default function Components() {
   const people = [
     {
       name: 'Jane Cooper',
