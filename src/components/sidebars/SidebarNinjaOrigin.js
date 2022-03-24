@@ -12,7 +12,7 @@ export default function SidebarNinjaOrigin() {
           </a>
         </h3>
 
-        {/* hambuer Menu */}
+        {/* Hamburger Menu */}
         <div className="px-4 cursor-pointer md:hidden" id="burger">
           <svg
             xmlns="http://www.w3.org/2000/svg"
