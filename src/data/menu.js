@@ -5,13 +5,7 @@ export const menuItems = [
     href: '/',
     title: 'Home',
     icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-5 w-5 ml-2"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -27,7 +21,7 @@ export const menuItems = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-5 w-5 ml-2"
+        className="h-5 w-5"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -45,13 +39,7 @@ export const menuItems = [
     href: '/food',
     title: 'Food Recipes',
     icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-5 w-5 ml-2"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -87,7 +75,7 @@ export const menuItems = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-5 w-5 ml-2"
+        className="h-5 w-5"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -107,7 +95,7 @@ export const menuItems = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-5 w-5 ml-2"
+        className="h-5 w-5"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -127,7 +115,7 @@ export const menuItems = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-5 w-5 ml-2"
+        className="h-5 w-5"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -145,13 +133,7 @@ export const menuItems = [
     href: '/components',
     title: 'Components',
     icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-5 w-5 ml-2"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -165,13 +147,7 @@ export const menuItems = [
     href: '/contact',
     title: 'Contact',
     icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-5 w-5 ml-2"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
