@@ -17,8 +17,8 @@ export default function SideMenuNinja() {
                   : 'px-4 flex justify-end border-r-4 border-white'
               }
             >
-              <span>{title}</span>
-              {icon}
+              <div className="px-2">{title}</div>
+              <div>{icon}</div>
             </NavLink>
           </li>
         ))}

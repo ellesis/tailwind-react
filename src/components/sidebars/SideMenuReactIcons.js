@@ -18,8 +18,8 @@ export default function SideMenuReactIcons() {
                     : 'px-4 flex justify-end border-r-4 border-white'
                 }
               >
-                {iconTag}
-                <span>{title}</span>
+                <div className="px-2">{iconTag}</div>
+                <div>{title}</div>
               </NavLink>
             </li>
           )
