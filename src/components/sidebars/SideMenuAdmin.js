@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 import {menuItems} from '../../data/menu'
 import {adminMenuItems} from '../../data/admin-menu'
@@ -30,7 +31,7 @@ export default function SideMenuAdmin() {
 
           {/* Site Title */}
           <Link
-            className="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
+            className="md:block text-left md:pb-2 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
             to="/"
           >
             Admin Dashboard
@@ -38,48 +39,47 @@ export default function SideMenuAdmin() {
 
           {/* Admin Menu */}
           <hr className="my-4 md:min-w-full" />
-          <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
+          <h6 className="md:min-w-full text-gray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
             Admin Menu
           </h6>
           <ul className=" md:min-w-full flex flex-col list-none">
             {adminMenuItems.map(({href, title, iconTag}) => (
               <li key={title} className="items-center">
-                <Link
+                <NavLink
+                  to={href}
                   className={
                     'text-xs uppercase py-3 font-bold flex ' +
                     (window.location.href.indexOf({href}) !== -1
                       ? 'text-lightBlue-500 hover:text-lightBlue-600'
                       : 'text-blueGray-700 hover:text-blueGray-500')
                   }
-                  to={href}
                 >
                   <div className="text-lg pr-3 text-gray-400">{iconTag}</div>
                   <div>{title}</div>
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>
 
           {/* Menu */}
           <hr className="my-4 md:min-w-full" />
-          <h6 className="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
+          <h6 className="md:min-w-full text-gray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">
             User Menu
           </h6>
           <ul className=" md:min-w-full flex flex-col list-none">
             {menuItems.map(({href, title, icon}) => (
               <li key={title} className="items-center">
-                <Link
-                  className={
-                    'text-xs uppercase py-3 font-bold flex ' +
-                    (window.location.href.indexOf({href}) !== -1
-                      ? 'text-lightBlue-500 hover:text-lightBlue-600'
-                      : 'text-blueGray-700 hover:text-blueGray-500')
-                  }
+                <NavLink
                   to={href}
+                  className={({isActive}) =>
+                    isActive
+                      ? 'text-xs uppercase py-3 font-bold flex text-sky-500 hover:text-sky-300'
+                      : 'text-xs uppercase py-3 font-bold flex text-gray-700 hover:text-gray-400'
+                  }
                 >
                   <div className="text-lg pr-3 text-gray-400">{icon}</div>
-                  <div>{title}</div>
-                </Link>
+                  {title}
+                </NavLink>
               </li>
             ))}
           </ul>
