@@ -4,7 +4,7 @@ import LayoutAdmin from '../layouts/LayoutAdmin'
 export default function Admin() {
   return (
     <LayoutAdmin>
-      <div>AdminNotus</div>
+      <div>Admin children</div>
     </LayoutAdmin>
   )
 }

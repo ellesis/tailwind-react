@@ -43,7 +43,7 @@ code {
   }
 
   /* Buttons */
-  /* no-color full round button and hover bigger - bg-secondary-100 text-secondary-200 만 추가하면 원는 색깔 버튼을 만들수 있다. */
+  /* no-color full round button and hover bigger - bg-secondary-100 text-secondary-200 */
   .btn-rounded-full-hover-bigger {
     @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300;
   }

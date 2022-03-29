@@ -1,26 +1,36 @@
 import React from 'react'
+import {Routes, Route} from 'react-router-dom'
 
+// components
 import SideMenuAdmin from '../components/sidebars/SideMenuAdmin'
+import AdminNavbar from '../components/navbars/AdminNavbar'
+import FooterAdmin from '../components/footers/FooterAdmin'
+
+// views
+import Dashboard from '../pages/admin/Dashboard'
+import Tables from '../pages/admin/Tables'
 
 export default function LayoutAdmin() {
   return (
     <>
-      <SideMenuAdmin />
-      <div className="relative md:ml-64 bg-blueGray-100">
-        {/* <AdminNavbar /> */}
-        {/* Header */}
-        {/* <HeaderStats /> */}
-        <div className="px-4 md:px-10 mx-auto w-full -m-24">
-          {/* main */}
-          {/* <Switch>
-            <Route path="/admin/dashboard" exact component={Dashboard} />
-            <Route path="/admin/maps" exact component={Maps} />
-            <Route path="/admin/settings" exact component={Settings} />
-            <Route path="/admin/tables" exact component={Tables} />
-            <Redirect from="/admin" to="/admin/dashboard" />
-          </Switch>
-          <FooterAdmin /> */}
-        </div>
+      <div className="flex flex-row min-h-screen ">
+        <SideMenuAdmin />
+        <main className="flex-1 flex-col h-screen ml-64  bg-blue-300">
+          {/* Header */}
+          <AdminNavbar />
+          {/* <HeaderStats /> */}
+          <div className="px-4 md:px-10 mx-auto">
+            {/* main */}
+            <div className="z-100">
+              <div className="h-1/2 bg-yellow-300">Main</div>
+              <Routes>
+                <Route path="dashboard" element={<Dashboard />} />
+                <Route path="tables" element={<Tables />} />
+              </Routes>
+            </div>
+            <FooterAdmin />
+          </div>
+        </main>
       </div>
     </>
   )

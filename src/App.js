@@ -7,7 +7,6 @@ import PageEgg from './pages/page-egg'
 import PageLayout from './pages/page-layout'
 import PageMain from './pages/page-main'
 
-import Admin from './pages/admin'
 import Yokose from './pages/yokose'
 import Green from './pages/green'
 
@@ -17,11 +16,14 @@ import About from './pages/about'
 import RightSlide from './pages/right-slide'
 import Better from './pages/better'
 
+// Layout
+import LayoutAdmin from './layouts/LayoutAdmin'
+
 function App() {
   return (
     <Routes>
       <Route path="/layout" element={<PageLayout />} />
-      <Route path="/admin" element={<Admin />} />
+      <Route path="/admin/*" element={<LayoutAdmin />} />
 
       <Route path="/components" element={<Components />} />
       <Route path="/egg" element={<PageEgg />} />
