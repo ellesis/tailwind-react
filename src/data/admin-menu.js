@@ -3,23 +3,23 @@ import {FaMapMarkedAlt, FaTable} from 'react-icons/fa'
 
 export const adminMenuItems = [
   {
-    href: 'dashboard',
     title: 'Dashboard',
+    href: 'dashboard',
     iconTag: <MdMonitor />
   },
   {
-    href: 'setting',
     title: 'Setting',
+    href: 'setting',
     iconTag: <MdOutlineSettingsSuggest />
   },
   {
-    href: 'tables',
     title: 'Tables',
+    href: 'tables',
     iconTag: <FaTable />
   },
   {
-    href: 'maps',
     title: 'Maps',
+    href: 'maps',
     iconTag: <FaMapMarkedAlt />
   }
 ]

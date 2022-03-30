@@ -2,7 +2,7 @@ import React from 'react'
 import {Routes, Route} from 'react-router-dom'
 
 // components
-import SideMenuAdmin from '../components/sidebars/SideMenuAdmin'
+import AdminSideMenu from '../components/sidebars/AdminSideMenu'
 import AdminNavbar from '../components/navbars/AdminNavbar'
 import FooterAdmin from '../components/footers/FooterAdmin'
 
@@ -14,7 +14,7 @@ export default function LayoutAdmin() {
   return (
     <>
       <div className="flex flex-row min-h-screen ">
-        <SideMenuAdmin />
+        <AdminSideMenu />
         <main className="flex-1 flex-col h-screen ml-64  bg-blue-300">
           {/* Header */}
           <AdminNavbar />

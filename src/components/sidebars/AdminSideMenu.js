@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom'
 import {menuItems} from '../../data/menu'
 import {adminMenuItems} from '../../data/admin-menu'
 
-export default function SideMenuAdmin() {
+export default function AdminSideMenu() {
   const [collapseShow, setCollapseShow] = useState('hidden')
 
   return (
@@ -46,12 +46,12 @@ export default function SideMenuAdmin() {
             {adminMenuItems.map(({href, title, iconTag}) => (
               <li key={title} className="items-center">
                 <NavLink
+                  end
                   to={href}
-                  className={
-                    'text-xs uppercase py-3 font-bold flex ' +
-                    (window.location.href.indexOf({href}) !== -1
-                      ? 'text-lightBlue-500 hover:text-lightBlue-600'
-                      : 'text-blueGray-700 hover:text-blueGray-500')
+                  className={({isActive}) =>
+                    isActive
+                      ? 'text-xs uppercase py-3 font-bold flex text-sky-500 hover:text-sky-300'
+                      : 'text-xs uppercase py-3 font-bold flex text-gray-700 hover:text-gray-400'
                   }
                 >
                   <div className="text-lg pr-3 text-gray-400">{iconTag}</div>
@@ -70,6 +70,7 @@ export default function SideMenuAdmin() {
             {menuItems.map(({href, title, icon}) => (
               <li key={title} className="items-center">
                 <NavLink
+                  end
                   to={href}
                   className={({isActive}) =>
                     isActive
