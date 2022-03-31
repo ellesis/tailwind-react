@@ -8,7 +8,9 @@ import FooterAdmin from '../components/footers/FooterAdmin'
 
 // views
 import Dashboard from '../pages/admin/Dashboard'
+import Setting from '../pages/admin/Setting'
 import Tables from '../pages/admin/Tables'
+import Maps from '../pages/admin/Maps'
 
 export default function LayoutAdmin() {
   return (
@@ -25,7 +27,9 @@ export default function LayoutAdmin() {
               <div className="h-1/2 bg-yellow-300">Main</div>
               <Routes>
                 <Route path="dashboard" element={<Dashboard />} />
+                <Route path="setting" element={<Setting />} />
                 <Route path="tables" element={<Tables />} />
+                <Route path="maps" element={<Maps />} />
               </Routes>
             </div>
             <FooterAdmin />
