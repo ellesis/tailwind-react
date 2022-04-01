@@ -12,7 +12,7 @@ import Setting from '../pages/admin/Setting'
 import Tables from '../pages/admin/Tables'
 import Maps from '../pages/admin/Maps'
 
-export default function LayoutAdmin() {
+export default function AdminLayout() {
   return (
     <>
       <div className="flex flex-row min-h-screen ">

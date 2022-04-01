@@ -17,13 +17,13 @@ import RightSlide from './pages/right-slide'
 import Better from './pages/better'
 
 // Layout
-import LayoutAdmin from './layouts/LayoutAdmin'
+import AdminLayout from './layouts/AdminLayout'
 
 function App() {
   return (
     <Routes>
       <Route path="/layout" element={<PageLayout />} />
-      <Route path="/admin/*" element={<LayoutAdmin />} />
+      <Route path="/admin/*" element={<AdminLayout />} />
 
       <Route path="/components" element={<Components />} />
       <Route path="/egg" element={<PageEgg />} />

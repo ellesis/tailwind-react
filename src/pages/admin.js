@@ -1,10 +1,10 @@
 import React from 'react'
-import LayoutAdmin from '../layouts/LayoutAdmin'
+import AdminLayout from '../layouts/AdminLayout'
 
 export default function Admin() {
   return (
-    <LayoutAdmin>
+    <AdminLayout>
       <div>Admin children</div>
-    </LayoutAdmin>
+    </AdminLayout>
   )
 }
