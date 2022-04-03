@@ -17,7 +17,7 @@ export default function AdminLayout() {
     <>
       <div className="flex flex-row min-h-screen ">
         <AdminSideMenu />
-        <main className="flex-1 flex-col h-screen ml-64  bg-blue-300">
+        <main className="flex-1 flex-col h-screen md:ml-64  bg-blue-300">
           {/* Header */}
           <AdminNavbar />
           {/* <HeaderStats /> */}

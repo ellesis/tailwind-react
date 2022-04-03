@@ -3,21 +3,20 @@ import React from 'react'
 export default function AdminNavbar() {
   return (
     <>
-      {/* AdminNavbar */}
-      <nav className="bg-blue-400 p-4">
-        <div className="items-center flex justify-between flex-wrap md:flex-nowrap  md:px-10 px-4">
+      <nav className="bg-sky-600 p-4">
+        <div className="flex justify-between items-center flex-wrap md:flex-nowrap md:px-10 px-4">
           {/* Brand */}
           <a
             className="text-white text-sm uppercase hidden lg:inline-block font-semibold"
-            href="#pablo"
+            href="/"
             onClick={(e) => e.preventDefault()}
           >
-            Dashboard
+            Admin Dashboard
           </a>
           {/* Search Form */}
           <form className="md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3">
             <div className="relative flex w-full flex-wrap items-stretch">
-              <span className="z-10 h-full leading-snug font-normal absolute text-center text-blueGray-300 absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3">
+              <span className="z-10 h-full leading-snug font-normal absolute text-center text-blueGray-300 bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3">
                 <i className="fas fa-search"></i>
               </span>
               <input
@@ -33,7 +32,6 @@ export default function AdminNavbar() {
           </ul> */}
         </div>
       </nav>
-      {/* End AdminNavbar */}
     </>
   )
 }
