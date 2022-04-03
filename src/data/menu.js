@@ -50,7 +50,7 @@ export const menuItems = [
     )
   },
   {
-    href: '/admin',
+    href: '/admin/dashboard',
     title: 'Admin Dashboard',
     icon: (
       <svg
