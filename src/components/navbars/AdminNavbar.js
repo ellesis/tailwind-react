@@ -1,5 +1,7 @@
 import React from 'react'
 
+import UserDropdown from '../dropdowns/UserDropdown'
+
 export default function AdminNavbar() {
   return (
     <>
@@ -22,14 +24,14 @@ export default function AdminNavbar() {
               <input
                 type="text"
                 placeholder="Search here..."
-                className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white rounded text-sm shadow outline-none focus:outline-none focus:ring w-full pl-10"
+                className="border-0 px-2 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white rounded text-sm shadow outline-none focus:outline-none focus:ring w-full pl-4"
               />
             </div>
           </form>
           {/* User */}
-          {/* <ul className="flex-col md:flex-row list-none items-center hidden md:flex">
+          <ul className="flex-col md:flex-row list-none items-center hidden md:flex">
             <UserDropdown />
-          </ul> */}
+          </ul>
         </div>
       </nav>
     </>
