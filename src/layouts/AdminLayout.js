@@ -4,6 +4,7 @@ import {Routes, Route} from 'react-router-dom'
 // components
 import AdminSideMenu from '../components/sidebars/AdminSideMenu'
 import AdminNavbar from '../components/navbars/AdminNavbar'
+import HeaderStats from '../components/headers/HeaderStats'
 import FooterAdmin from '../components/footers/FooterAdmin'
 
 // views
@@ -20,7 +21,7 @@ export default function AdminLayout() {
         <main className="flex-1 flex-col h-screen md:ml-64  bg-blue-300">
           {/* Header */}
           <AdminNavbar />
-          {/* <HeaderStats /> */}
+          <HeaderStats />
           <div className="px-4 md:px-10 mx-auto">
             {/* main */}
             <div className="z-100">
