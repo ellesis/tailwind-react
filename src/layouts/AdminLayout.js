@@ -16,7 +16,7 @@ import Maps from '../pages/admin/Maps'
 export default function AdminLayout() {
   return (
     <>
-      <div className="flex flex-row min-h-screen ">
+      <div className="flex flex-col md:flex-row min-h-screen ">
         <AdminSideMenu />
         <main className="flex-1 flex-col h-screen md:ml-64  bg-blue-300">
           {/* Header */}
