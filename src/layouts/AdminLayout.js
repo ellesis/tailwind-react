@@ -22,10 +22,9 @@ export default function AdminLayout() {
           {/* Header */}
           <AdminNavbar />
           <HeaderStats />
-          <div className="px-4 md:px-10 mx-auto">
+          <div className="px-4 md:px-10  mx-auto w-full -m-20">
             {/* main */}
             <div className="z-100">
-              <div className="h-1/2 bg-yellow-300">Main</div>
               <Routes>
                 <Route path="dashboard" element={<Dashboard />} />
                 <Route path="setting" element={<Setting />} />
