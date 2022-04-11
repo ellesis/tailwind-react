@@ -16,10 +16,10 @@ export const adminMenuItems = [
     title: 'Tables',
     href: 'tables',
     iconTag: <FaTable />
-  },
-  {
-    title: 'Maps',
-    href: 'maps',
-    iconTag: <FaMapMarkedAlt />
   }
+  // {
+  //   title: 'Maps',
+  //   href: 'maps',
+  //   iconTag: <FaMapMarkedAlt />
+  // }
 ]
