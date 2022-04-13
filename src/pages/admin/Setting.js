@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default function Setting() {
-  return <div className="h-1/2 bg-green-300">Setting</div>
+  return <div className="z-100 h-40 bg-green-300">Setting</div>
 }
