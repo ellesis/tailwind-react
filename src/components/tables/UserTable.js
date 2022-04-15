@@ -28,8 +28,8 @@ export default function UserTable({color}) {
                   className={
                     'px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left ' +
                     (color === 'light'
-                      ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
-                      : 'bg-lightBlue-800 text-lightBlue-300 border-lightBlue-700')
+                      ? 'bg-slate-50 text-slate-500 border-slate-100'
+                      : 'bg-sky-800 text-sky-300 border-sky-700')
                   }
                 >
                   Project
@@ -38,8 +38,8 @@ export default function UserTable({color}) {
                   className={
                     'px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left ' +
                     (color === 'light'
-                      ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
-                      : 'bg-lightBlue-800 text-lightBlue-300 border-lightBlue-700')
+                      ? 'bg-slate-50 text-slate-500 border-slate-100'
+                      : 'bg-sky-800 text-sky-300 border-sky-700')
                   }
                 >
                   Budget
@@ -48,8 +48,8 @@ export default function UserTable({color}) {
                   className={
                     'px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left ' +
                     (color === 'light'
-                      ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
-                      : 'bg-lightBlue-800 text-lightBlue-300 border-lightBlue-700')
+                      ? 'bg-slate-50 text-slate-500 border-slate-100'
+                      : 'bg-sky-800 text-sky-300 border-sky-700')
                   }
                 >
                   Status
@@ -58,8 +58,8 @@ export default function UserTable({color}) {
                   className={
                     'px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left ' +
                     (color === 'light'
-                      ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
-                      : 'bg-lightBlue-800 text-lightBlue-300 border-lightBlue-700')
+                      ? 'bg-slate-50 text-slate-500 border-slate-100'
+                      : 'bg-sky-800 text-sky-300 border-sky-700')
                   }
                 >
                   Users
@@ -68,8 +68,8 @@ export default function UserTable({color}) {
                   className={
                     'px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left ' +
                     (color === 'light'
-                      ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
-                      : 'bg-lightBlue-800 text-lightBlue-300 border-lightBlue-700')
+                      ? 'bg-slate-50 text-slate-500 border-slate-100'
+                      : 'bg-sky-800 text-sky-300 border-sky-700')
                   }
                 >
                   Completion
@@ -78,8 +78,8 @@ export default function UserTable({color}) {
                   className={
                     'px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left ' +
                     (color === 'light'
-                      ? 'bg-blueGray-50 text-blueGray-500 border-blueGray-100'
-                      : 'bg-lightBlue-800 text-lightBlue-300 border-lightBlue-700')
+                      ? 'bg-slate-50 text-slate-500 border-slate-100'
+                      : 'bg-sky-800 text-sky-300 border-sky-700')
                   }
                 ></th>
               </tr>
@@ -107,22 +107,22 @@ export default function UserTable({color}) {
                     <img
                       src={require('../../assets/img/avatar/boy.png')}
                       alt="..."
-                      className="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
+                      className="w-10 h-10 rounded-full border-2 border-slate-50 shadow"
                     ></img>
                     <img
                       src={require('../../assets/img/avatar/girl-p.png')}
                       alt="..."
-                      className="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                      className="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
                     ></img>
                     <img
                       src={require('../../assets/img/avatar/boy-green.png')}
                       alt="..."
-                      className="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                      className="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
                     ></img>
                     <img
                       src={require('../../assets/img/avatar/girl.png')}
                       alt="..."
-                      className="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+                      className="w-10 h-10 rounded-full border-2 border-slate-50 shadow -ml-4"
                     ></img>
                   </div>
                 </td>

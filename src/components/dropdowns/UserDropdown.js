@@ -21,7 +21,7 @@ export default function UserDropdown() {
   return (
     <>
       <a
-        className="text-blueGray-500 block"
+        className="text-slate-500 block"
         href="#"
         ref={btnDropdownRef}
         onClick={(e) => {
@@ -30,7 +30,7 @@ export default function UserDropdown() {
         }}
       >
         <div className="items-center flex">
-          <span className="w-12 h-12 text-sm text-white bg-blueGray-200 inline-flex items-center justify-center rounded-full">
+          <span className="w-12 h-12 text-sm text-white bg-slate-200 inline-flex items-center justify-center rounded-full">
             <img
               alt="User Avatar"
               className="w-full rounded-full align-middle border-none shadow-lg"
@@ -50,29 +50,29 @@ export default function UserDropdown() {
       >
         <a
           href="#"
-          className={'text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700'}
+          className={'text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700'}
           onClick={(e) => e.preventDefault()}
         >
           User Profile
         </a>
         <a
           href="#"
-          className={'text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700'}
+          className={'text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700'}
           onClick={(e) => e.preventDefault()}
         >
           Setting
         </a>
         <a
           href="#"
-          className={'text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700'}
+          className={'text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700'}
           onClick={(e) => e.preventDefault()}
         >
           help
         </a>
-        <div className="h-0 my-2 border border-solid border-blueGray-100" />
+        <div className="h-0 my-2 border border-solid border-slate-100" />
         <a
           href="#"
-          className={'text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700'}
+          className={'text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700'}
           onClick={(e) => e.preventDefault()}
         >
           Sign Out
