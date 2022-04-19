@@ -60,6 +60,7 @@ export default function AdminSideMenu() {
               Admin Menu
             </h6>
             <ul className=" md:min-w-full flex flex-col list-none">
+              {/* Admin Menu */}
               {adminMenuItems.map(({href, title, iconTag}) => (
                 <li key={title} className="items-center">
                   <NavLink

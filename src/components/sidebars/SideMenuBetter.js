@@ -1,18 +1,28 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
-import {menuItems} from '../../data/menu'
+import { menuItems } from '../../data/menu-react-icons'
 
 export default function SideMenuBetter() {
   return (
     <nav>
       <ul className="w-full h-full">
-        {menuItems.map(({href, title}) => (
-          <NavLink key={title} to={href} className={({isActive}) => (isActive ? 'flex bg-blue-700' : 'flex')}>
-            <li className="block w-full py-2.5 px-4 font-extrabold hover:bg-blue-600">
-              <span>{title}</span>
-            </li>
-          </NavLink>
+        {/* react icons sideMenu */}
+        {menuItems.map(({ href, title, iconTag }) => (
+          <li>
+            <NavLink
+              key={title}
+              to={href}
+              className={({ isActive }) =>
+                isActive
+                  ? 'flex bg-blue-700 hover:bg-blue-600  py-2 px-4 font-extrabold'
+                  : 'flex hover:bg-blue-600  py-2 px-4 font-extrabold'
+              }
+            >
+              <div className="text-lg pr-3">{iconTag}</div>
+              <div>{title}</div>
+            </NavLink>
+          </li>
         ))}
       </ul>
     </nav>
