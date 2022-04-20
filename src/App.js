@@ -1,5 +1,5 @@
 import './App.css'
-import {Routes, Route} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 import Food from './pages/food'
 import Components from './pages/components'
@@ -38,7 +38,9 @@ function App() {
 
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/" element={<Front />} />
+      <Route path="/front" element={<Front />} />
+
+      <Route path="/" element={<AdminLayout />} />
     </Routes>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Routes, Route} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 // components
 import AdminSideMenu from '../components/sidebars/AdminSideMenu'
@@ -30,6 +30,7 @@ export default function AdminLayout() {
                 <Route path="setting" element={<Setting />} />
                 <Route path="tables" element={<Tables />} />
                 <Route path="maps" element={<Maps />} />
+                <Route path="/" element={<Dashboard />} />
               </Routes>
             </div>
             <FooterAdmin />
