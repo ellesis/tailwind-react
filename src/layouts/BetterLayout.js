@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import SideMenuBetter from '../components/sidebars/SideMenuBetter'
 
-export default function BetterLayout({children}) {
+export default function BetterLayout({ children }) {
   const [isMobile, setIsMobile] = useState(false)
 
   const handleMenuBtnClick = () => {
@@ -38,7 +38,7 @@ export default function BetterLayout({children}) {
         } w-64 bg-blue-800 text-blue-100 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform -translate-x-full  transition duration-200 ease-in-ou`}
       >
         {/* logo */}
-        <a href="#" className="text-white flex items-center space-x-2 px-4">
+        <a href="/" className="text-white flex items-center space-x-2 px-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-8 w-8"
