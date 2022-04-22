@@ -1,14 +1,13 @@
-import { FaHome, FaChartLine } from 'react-icons/fa' // Font Awesome
+import { FaHome, FaChartLine } from 'react-icons/fa' // Font awesome
 import {
   BsEgg,
   BsLayoutThreeColumns,
   BsLayoutTextSidebarReverse,
   BsLayoutTextSidebar,
   BsInfoCircle,
-  BsLayoutWtf,
-  BsFillQuestionCircleFill
-} from 'react-icons/bs' // Bootstrap Icons
-import { MdMenuBook, MdOutlineSpaceDashboard, MdMonitor, MdOutlineSettingsSuggest } from 'react-icons/md' // Material-UI
+  BsLayoutWtf
+} from 'react-icons/bs' // Bootstrap
+import { MdMenuBook, MdOutlineMailOutline } from 'react-icons/md' // Material-design
 
 export const siteTitle = 'Layout Menu'
 
@@ -61,6 +60,6 @@ export const menuItems = [
   {
     title: 'Contact',
     href: '/contact',
-    iconTag: <BsFillQuestionCircleFill />
+    iconTag: <MdOutlineMailOutline />
   }
 ]
