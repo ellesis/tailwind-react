@@ -9,9 +9,8 @@ export default function SideMenuBetter() {
       <ul className="w-full h-full">
         {/* react icons sideMenu */}
         {menuItems.map(({ href, title, iconTag }) => (
-          <li>
+          <li key={title}>
             <NavLink
-              key={title}
               to={href}
               className={({ isActive }) =>
                 isActive
