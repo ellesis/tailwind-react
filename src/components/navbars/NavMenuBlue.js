@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
-import {menuItems} from '../../data/menu'
+import { menuItems } from '../../data/menu-heroicons'
 
 const NavMenuBlue = () => {
   const links = ['link1', 'link2', 'link3']

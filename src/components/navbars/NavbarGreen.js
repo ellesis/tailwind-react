@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
-import {NavLink} from 'react-router-dom'
+import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 
-import {menuItems} from '../../data/menu'
+import { menuItems } from '../../data/menu-heroicons'
 
 export default function NavbarGreen() {
   const [active, setActive] = useState(false)
@@ -40,11 +40,11 @@ export default function NavbarGreen() {
         {/* Menu */}
         <div className={`${active ? '' : 'hidden'}   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
-            {menuItems.map(({href, title, iconTag}) => {
+            {menuItems.map(({ href, title, iconTag }) => {
               return (
                 <NavLink
                   to={href}
-                  className={({isActive}) =>
+                  className={({ isActive }) =>
                     isActive
                       ? 'px-4 flex justify-end border-r-4 border-green-500'
                       : 'px-4 flex justify-end border-r-4 border-white'

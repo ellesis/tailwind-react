@@ -1,9 +1,9 @@
-import React, {useState} from 'react'
-import {Link} from 'react-router-dom'
-import {NavLink} from 'react-router-dom'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
-import {menuItems} from '../../data/menu'
-import {adminMenuItems} from '../../data/admin-menu'
+import { menuItems } from '../../data/menu-heroicons'
+import { adminMenuItems } from '../../data/admin-menu'
 
 import UserDropdown from '../dropdowns/UserDropdown'
 
@@ -61,12 +61,12 @@ export default function AdminSideMenu() {
             </h6>
             <ul className=" md:min-w-full flex flex-col list-none">
               {/* Admin Menu */}
-              {adminMenuItems.map(({href, title, iconTag}) => (
+              {adminMenuItems.map(({ href, title, iconTag }) => (
                 <li key={title} className="items-center">
                   <NavLink
                     end
                     to={href}
-                    className={({isActive}) =>
+                    className={({ isActive }) =>
                       isActive
                         ? 'text-xs uppercase py-3 font-bold flex text-sky-500 hover:text-sky-300'
                         : 'text-xs uppercase py-3 font-bold flex text-gray-700 hover:text-gray-400'
@@ -85,12 +85,12 @@ export default function AdminSideMenu() {
               User Menu
             </h6>
             <ul className=" md:min-w-full flex flex-col list-none">
-              {menuItems.map(({href, title, icon}) => (
+              {menuItems.map(({ href, title, icon }) => (
                 <li key={title} className="items-center">
                   <NavLink
                     end
                     to={href}
-                    className={({isActive}) =>
+                    className={({ isActive }) =>
                       isActive
                         ? 'text-xs uppercase py-3 font-bold flex text-sky-500 hover:text-sky-300'
                         : 'text-xs uppercase py-3 font-bold flex text-gray-700 hover:text-gray-400'
