@@ -1,4 +1,4 @@
-import { FaHome } from 'react-icons/fa' // Font Awesome
+import { FaHome, FaChartLine } from 'react-icons/fa' // Font Awesome
 import {
   BsEgg,
   BsLayoutThreeColumns,
@@ -22,6 +22,11 @@ export const menuItems = [
     title: 'About',
     href: '/about',
     iconTag: <BsInfoCircle />
+  },
+  {
+    title: 'eChart',
+    href: '/echart',
+    iconTag: <FaChartLine />
   },
   {
     title: 'Food Recipes',

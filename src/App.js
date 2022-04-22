@@ -24,7 +24,7 @@ import AdminLayout from './layouts/AdminLayout'
 function App() {
   return (
     <Routes>
-      <Route path="/chart" element={<PageChart />} />
+      <Route path="/echart" element={<PageChart />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/components" element={<Components />} />
