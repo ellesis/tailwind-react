@@ -1,10 +1,33 @@
-import { FaQuestion, FaHome } from 'react-icons/fa'
-import { MdOutlineSpaceDashboard, MdMonitor, MdOutlineSettingsSuggest } from 'react-icons/md'
-import { BsEgg, BsLayoutThreeColumns, BsLayoutTextSidebarReverse, BsLayoutTextSidebar } from 'react-icons/bs' // Bootstrap Icons
+import { FaHome } from 'react-icons/fa' // Font Awesome
+import {
+  BsEgg,
+  BsLayoutThreeColumns,
+  BsLayoutTextSidebarReverse,
+  BsLayoutTextSidebar,
+  BsInfoCircle,
+  BsLayoutWtf,
+  BsFillQuestionCircleFill
+} from 'react-icons/bs' // Bootstrap Icons
+import { MdMenuBook, MdOutlineSpaceDashboard, MdMonitor, MdOutlineSettingsSuggest } from 'react-icons/md' // Material-UI
 
 export const siteTitle = 'Layout Menu'
 
 export const menuItems = [
+  {
+    title: 'Home',
+    href: '/',
+    iconTag: <FaHome />
+  },
+  {
+    title: 'About',
+    href: '/about',
+    iconTag: <BsInfoCircle />
+  },
+  {
+    title: 'Food Recipes',
+    href: '/food',
+    iconTag: <MdMenuBook />
+  },
   {
     title: 'Admin Dashboard',
     href: '/admin/dashboard',
@@ -24,5 +47,15 @@ export const menuItems = [
     title: 'Egg',
     href: '/egg',
     iconTag: <BsEgg />
+  },
+  {
+    title: 'Components',
+    href: '/components',
+    iconTag: <BsLayoutWtf />
+  },
+  {
+    title: 'Contact',
+    href: '/contact',
+    iconTag: <BsFillQuestionCircleFill />
   }
 ]
