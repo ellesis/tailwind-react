@@ -1,7 +1,6 @@
 # Lisa's Tailwindcss-react
 
 React + Tailwindcss
-
 Lisa's Tailwindcss react components
 
 ## Tailwindcss
@@ -16,6 +15,10 @@ https://tailwindcss.com/
 
 svg icons
 https://heroicons.com/
+
+## Folders
+
+### /components
 
 ---
 
