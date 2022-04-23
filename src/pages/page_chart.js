@@ -1,5 +1,11 @@
 import React from 'react'
 
+import LayoutOrange from '../layouts/LayoutOrange'
+
 export default function PageChart() {
-  return <div>PageChart</div>
+  return (
+    <LayoutOrange>
+      <div>PageChart</div>
+    </LayoutOrange>
+  )
 }
