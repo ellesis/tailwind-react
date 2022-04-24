@@ -1,9 +1,17 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { menuItems } from '../../data/menu-react-icons'
-
-export default function SideMenuBetter() {
+/**
+menuItems Sample
+export const menuItems = [
+  {
+    title: 'Home',
+    href: '/',
+    iconTag: <FaHome />
+  }
+]
+ */
+export default function SideMenuBetter({ menuItems }) {
   return (
     <nav>
       <ul className="w-full h-full">

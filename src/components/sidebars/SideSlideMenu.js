@@ -1,6 +1,8 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
 import SideMenuBetter from './SideMenuBetter'
+
+import { menuItems } from '../../data/menu-react-icons'
 
 /**
  * slide right sidebar
@@ -40,7 +42,7 @@ export default function SideSlideMenu() {
         }`}
       >
         <div className="mt-12">
-          <SideMenuBetter />
+          <SideMenuBetter menuItems={menuItems} />
         </div>
       </div>
     </>

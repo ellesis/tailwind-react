@@ -1,8 +1,16 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-// import { menuItems } from '../../data/menu-heroicons'
-
+/**
+menuItems Sample
+export const menuItems = [
+  {
+    title: 'Home',
+    href: '/',
+    iconTag: <FaHome />
+  }
+]
+ */
 export default function SideMenuOrange({ menuItems }) {
   return (
     <nav>

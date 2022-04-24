@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import SideMenuBetter from '../components/sidebars/SideMenuBetter'
 
+import { menuItems } from '../data/menu-react-icons'
+
 export default function BetterLayout({ children }) {
   const [isMobile, setIsMobile] = useState(false)
 
@@ -57,7 +59,9 @@ export default function BetterLayout({ children }) {
         </a>
 
         {/* nav */}
-        <SideMenuBetter show={isMobile} />
+        <SideMenuBetter menuItems={menuItems} show={isMobile} />
+
+        {/* <SideMenuBetter show={isMobile} /> */}
       </div>
       {/* content */}
       <div className="flex-1 p-10 text-2xl">{children}</div>
