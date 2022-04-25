@@ -1,26 +1,36 @@
-export const componentsItems = [
+import { FaTable, FaWpforms } from 'react-icons/fa' // Font awesome
+import { BsMenuButton, BsUiRadios, BsCreditCard2Front } from 'react-icons/bs' // Bootstrap
+import { MdSmartButton } from 'react-icons/md' // Material-design
+
+export const menuItems = [
   {
     title: 'Button',
-    href: '/button'
+    href: '/button',
+    iconTag: <MdSmartButton />
   },
   {
     title: 'Radio Button',
-    href: '/radio'
+    href: '/radio',
+    iconTag: <BsUiRadios />
   },
   {
     title: 'Combo Select',
-    href: '/from'
+    href: '/combo',
+    iconTag: <BsMenuButton />
   },
   {
     title: 'Card',
-    href: '/card'
+    href: '/card',
+    iconTag: <BsCreditCard2Front />
   },
   {
     title: 'Table',
-    href: '/table'
+    href: '/table',
+    iconTag: <FaTable />
   },
   {
     title: 'From',
-    href: '/from'
+    href: '/from',
+    iconTag: <FaWpforms />
   }
 ]

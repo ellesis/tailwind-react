@@ -1,4 +1,6 @@
 import React from 'react'
+import LayoutComponents from '../layouts/LayoutComponents'
+
 import ChitChat from '../components/cards/ChitChat'
 import AvatarCard from '../components/cards/AvatarCard'
 
@@ -22,7 +24,7 @@ export default function Components() {
     }
   ]
   return (
-    <>
+    <LayoutComponents>
       {/* Cards */}
       <div className="title">Components Sample</div>
       <div className="pt-4">
@@ -445,6 +447,6 @@ export default function Components() {
           </div>
         </div>
       </div>
-    </>
+    </LayoutComponents>
   )
 }

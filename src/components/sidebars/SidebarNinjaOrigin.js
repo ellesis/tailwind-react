@@ -1,6 +1,9 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
+/**
+Need to add Side Menu items manually
+ */
 export default function SidebarNinjaOrigin() {
   return (
     <nav className="text-right">
@@ -31,7 +34,7 @@ export default function SidebarNinjaOrigin() {
         <li className="text-gray-700 font-bold py-1">
           <NavLink
             to={'/'}
-            className={({isActive}) =>
+            className={({ isActive }) =>
               isActive
                 ? 'px-4 flex justify-end border-r-4 border-primary'
                 : 'px-4 flex justify-end border-r-4 border-white'
@@ -57,7 +60,7 @@ export default function SidebarNinjaOrigin() {
         <li className="py-1">
           <NavLink
             to={'/food'}
-            className={({isActive}) =>
+            className={({ isActive }) =>
               isActive
                 ? 'px-4 flex justify-end border-r-4 border-primary'
                 : 'px-4 flex justify-end border-r-4 border-white'
@@ -83,7 +86,7 @@ export default function SidebarNinjaOrigin() {
         <li className="py-1">
           <NavLink
             to={'/components'}
-            className={({isActive}) =>
+            className={({ isActive }) =>
               isActive
                 ? 'px-4 flex justify-end border-r-4 border-primary'
                 : 'px-4 flex justify-end border-r-4 border-white'
@@ -110,7 +113,7 @@ export default function SidebarNinjaOrigin() {
         <li className="py-1">
           <NavLink
             to={'/egg'}
-            className={({isActive}) =>
+            className={({ isActive }) =>
               isActive
                 ? 'px-4 flex justify-end border-r-4 border-primary'
                 : 'px-4 flex justify-end border-r-4 border-white'
@@ -136,7 +139,7 @@ export default function SidebarNinjaOrigin() {
         <li className="py-1">
           <NavLink
             to={'/contact'}
-            className={({isActive}) =>
+            className={({ isActive }) =>
               isActive
                 ? 'px-4 flex justify-end border-r-4 border-primary'
                 : 'px-4 flex justify-end border-r-4 border-white'
@@ -163,7 +166,7 @@ export default function SidebarNinjaOrigin() {
         <li className="py-1">
           <NavLink
             to={'/main'}
-            className={({isActive}) =>
+            className={({ isActive }) =>
               isActive
                 ? 'px-4 flex justify-end border-r-4 border-primary'
                 : 'px-4 flex justify-end border-r-4 border-white'
