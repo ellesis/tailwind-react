@@ -1,7 +1,16 @@
 import React from 'react'
+import { Routes, Route } from 'react-router-dom'
 
 import SideMenuGray from '../components/sidebars/SideMenuGray'
 import { menuItems } from '../data/components-menu'
+
+// views
+import PageButton from '../pages/components/button'
+import PageCard from '../pages/components/card'
+import PageCombo from '../pages/components/combo'
+import PageForm from '../pages/components/form'
+import PageRadio from '../pages/components/radio'
+import PageTable from '../pages/components/table'
 
 export default function LayoutComponents({ children }) {
   return (
@@ -17,7 +26,18 @@ export default function LayoutComponents({ children }) {
 
           <SideMenuGray menuItems={menuItems} />
         </aside>
-        <main className="h-screen  flex-1 px-16 py-6 bg-gray-100">{children}</main>
+        <main className="h-screen  flex-1 px-16 py-6 bg-gray-100">
+          <Routes>
+            <Route path="button" element={<PageButton />} />
+            <Route path="card" element={<PageCard />} />
+            <Route path="combo" element={<PageCombo />} />
+            <Route path="form" element={<PageForm />} />
+            <Route path="radio" element={<PageRadio />} />
+            <Route path="table" element={<PageTable />} />
+
+            <Route path="/" element={<PageButton />} />
+          </Routes>
+        </main>
       </div>
     </div>
   )

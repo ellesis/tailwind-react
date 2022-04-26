@@ -27,7 +27,7 @@ function App() {
       <Route path="/echart" element={<PageChart />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/components" element={<Components />} />
+      <Route path="/components/*" element={<Components />} />
       <Route path="/egg" element={<PageEgg />} />
       <Route path="/food" element={<Food />} />
       <Route path="/main" element={<PageMain />} />

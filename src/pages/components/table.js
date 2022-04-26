@@ -1,13 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-import BetterLayout from '../layouts/LayoutOrange'
-
-export default class PageTable extends Component {
-  render() {
-    return (
-      <LayoutOrange>
-        <div>PageTable</div>
-      </LayoutOrange>
-    )
-  }
+export default function PageTable() {
+  return <div>PageTable</div>
 }

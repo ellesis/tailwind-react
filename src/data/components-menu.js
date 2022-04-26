@@ -5,32 +5,32 @@ import { MdSmartButton } from 'react-icons/md' // Material-design
 export const menuItems = [
   {
     title: 'Button',
-    href: '/button',
+    href: 'button',
     iconTag: <MdSmartButton />
   },
   {
-    title: 'Radio Button',
-    href: '/radio',
+    title: 'Radio',
+    href: 'radio',
     iconTag: <BsUiRadios />
   },
   {
     title: 'Combo Select',
-    href: '/combo',
+    href: 'combo',
     iconTag: <BsMenuButton />
   },
   {
     title: 'Card',
-    href: '/card',
+    href: 'card',
     iconTag: <BsCreditCard2Front />
   },
   {
     title: 'Table',
-    href: '/table',
+    href: 'table',
     iconTag: <FaTable />
   },
   {
     title: 'From',
-    href: '/from',
+    href: 'form',
     iconTag: <FaWpforms />
   }
 ]
