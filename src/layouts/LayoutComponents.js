@@ -12,6 +12,11 @@ import PageForm from '../pages/components/form'
 import PageRadio from '../pages/components/radio'
 import PageTable from '../pages/components/table'
 
+/**
+ * Components Layout
+ *
+ * sub routes
+ */
 export default function LayoutComponents({ children }) {
   return (
     <div className="min-h-screen flex flex-col">
@@ -37,6 +42,8 @@ export default function LayoutComponents({ children }) {
 
             <Route path="/" element={<PageButton />} />
           </Routes>
+
+          {children}
         </main>
       </div>
     </div>

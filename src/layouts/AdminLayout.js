@@ -13,6 +13,11 @@ import Setting from '../pages/admin/Setting'
 import Tables from '../pages/admin/Tables'
 import Maps from '../pages/admin/Maps'
 
+/**
+ * Admin Layout
+ *
+ * sub routes
+ */
 export default function AdminLayout() {
   return (
     <>
