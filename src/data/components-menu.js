@@ -4,6 +4,11 @@ import { MdSmartButton } from 'react-icons/md' // Material-design
 
 export const menuItems = [
   {
+    title: 'Card',
+    href: 'card',
+    iconTag: <BsCreditCard2Front />
+  },
+  {
     title: 'Button',
     href: 'button',
     iconTag: <MdSmartButton />
@@ -18,11 +23,7 @@ export const menuItems = [
     href: 'combo',
     iconTag: <BsMenuButton />
   },
-  {
-    title: 'Card',
-    href: 'card',
-    iconTag: <BsCreditCard2Front />
-  },
+
   {
     title: 'Table',
     href: 'table',

@@ -17,7 +17,7 @@ import PageTable from '../pages/components/table'
  *
  * sub routes
  */
-export default function LayoutComponents({ children }) {
+export default function LayoutComponents() {
   return (
     <div className="min-h-screen flex flex-col">
       <div className="flex flex-col md:flex-row flex-1">
@@ -40,10 +40,8 @@ export default function LayoutComponents({ children }) {
             <Route path="radio" element={<PageRadio />} />
             <Route path="table" element={<PageTable />} />
 
-            <Route path="/" element={<PageButton />} />
+            <Route path="/" element={<PageCard />} />
           </Routes>
-
-          {children}
         </main>
       </div>
     </div>
