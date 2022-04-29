@@ -8,6 +8,7 @@ import {
   BsLayoutWtf
 } from 'react-icons/bs' // Bootstrap
 import { MdMenuBook, MdOutlineMailOutline } from 'react-icons/md' // Material-design
+import { HiViewGridAdd } from 'react-icons/hi' //Hero Icons
 
 export const siteTitle = 'Layout Menu'
 
@@ -46,6 +47,11 @@ export const menuItems = [
     title: 'Right Slide Layout',
     href: '/right-slide',
     iconTag: <BsLayoutTextSidebar />
+  },
+  {
+    title: 'Green Layout',
+    href: '/green',
+    iconTag: <HiViewGridAdd />
   },
   {
     title: 'Egg',
