@@ -29,6 +29,11 @@ export const menuItems = [
     iconTag: <FaChartLine />
   },
   {
+    title: 'Components',
+    href: '/components',
+    iconTag: <BsLayoutWtf />
+  },
+  {
     title: 'Food Recipes',
     href: '/food',
     iconTag: <MdMenuBook />
@@ -57,11 +62,6 @@ export const menuItems = [
     title: 'Egg',
     href: '/egg',
     iconTag: <BsEgg />
-  },
-  {
-    title: 'Components',
-    href: '/components',
-    iconTag: <BsLayoutWtf />
   },
   {
     title: 'Contact',

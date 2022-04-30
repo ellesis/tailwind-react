@@ -1,8 +1,13 @@
-import { FaTable, FaWpforms } from 'react-icons/fa' // Font awesome
+import { FaHome, FaTable, FaWpforms } from 'react-icons/fa' // Font awesome
 import { BsMenuButton, BsUiRadios, BsCreditCard2Front } from 'react-icons/bs' // Bootstrap
 import { MdSmartButton } from 'react-icons/md' // Material-design
 
 export const menuItems = [
+  {
+    title: 'Home',
+    href: '/',
+    iconTag: <FaHome />
+  },
   {
     title: 'Card',
     href: 'card',
