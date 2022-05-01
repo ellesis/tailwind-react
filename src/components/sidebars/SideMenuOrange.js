@@ -26,7 +26,7 @@ export default function SideMenuOrange({ menuItems }) {
               }
             >
               <div className="px-2">{title}</div>
-              <div>{iconTag}</div>
+              <div className="pt-1">{iconTag}</div>
             </NavLink>
           </li>
         ))}
