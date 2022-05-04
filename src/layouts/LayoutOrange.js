@@ -4,6 +4,9 @@ import SideMenuOrange from '../components/sidebars/SideMenuOrange'
 
 import { menuItems } from '../data/menu-react-icons'
 
+/**
+ * Layout Orange
+ */
 export default function LayoutOrange({ children }) {
   const layoutTitle = 'Tailwind React'
 
@@ -47,12 +50,15 @@ export default function LayoutOrange({ children }) {
               </svg>
             </button>
           </div>
+
           {/* Left Side Menu */}
           <div className={`${isSmallWin ? 'hidden' : 'block'}`}>
             <SideMenuOrange menuItems={menuItems} />
           </div>
         </aside>
-        <main className="h-screen  flex-1 px-16 py-6 bg-gray-100">{children}</main>
+
+        {/* Main */}
+        <main className="h-full flex-1 px-16 py-6 bg-gray-100">{children}</main>
       </div>
     </div>
   )
