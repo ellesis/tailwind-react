@@ -2,9 +2,12 @@ import React from 'react'
 
 import LayoutOrange from '../layouts/LayoutOrange'
 
+// Chart components
 import LineChart from '../components/charts/LineChart'
-import BarChart from '../components/charts/BarChart'
 import LineAreaChart from '../components/charts/LineAreaChart'
+
+import BarChart from '../components/charts/BarChart'
+import BarChartWithTooltip from '../components/charts/BarChartWithTooltip'
 
 /**
  * echart components sample
@@ -17,6 +20,7 @@ export default function PageChart() {
       <LineAreaChart title="Line Area Chart" />
 
       <BarChart />
+      <BarChartWithTooltip title="Bar Chart With Tooltip" />
     </LayoutOrange>
   )
 }

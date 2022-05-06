@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import Contact from './pages/contact'
 import Front from './pages/front'
 import About from './pages/about'
-import PageChart from './pages/page_chart'
+import Chart from './pages/chart'
 import PageEgg from './pages/page-egg'
 import PageLayout from './pages/page-layout'
 import PageMain from './pages/page-main'
@@ -24,10 +24,11 @@ import AdminLayout from './layouts/AdminLayout'
 function App() {
   return (
     <Routes>
-      <Route path="/echart" element={<PageChart />} />
+      <Route path="/components/*" element={<Components />} />
+      <Route path="/echart" element={<Chart />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/components/*" element={<Components />} />
+
       <Route path="/egg" element={<PageEgg />} />
       <Route path="/food" element={<Food />} />
       <Route path="/main" element={<PageMain />} />
