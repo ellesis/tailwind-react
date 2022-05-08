@@ -4,7 +4,7 @@ import ReactEcharts from 'echarts-for-react'
 export default function LineAreaChart({ title }) {
   const option = {
     title: {
-      text: ''
+      text: 'Line Area Chart'
     },
     tooltip: {
       trigger: 'axis',
@@ -100,7 +100,7 @@ export default function LineAreaChart({ title }) {
   }
 
   return (
-    <div className="py-5 my-2">
+    <div className="py-5 my-2 flex-1">
       <h4>{title}</h4>
       <ReactEcharts option={option} />
     </div>

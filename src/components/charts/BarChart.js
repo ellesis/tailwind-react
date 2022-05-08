@@ -3,6 +3,14 @@ import ReactEcharts from 'echarts-for-react'
 
 export default function BarChart() {
   const option = {
+    title: {
+      text: 'Bar Chart'
+    },
+    toolbox: {
+      feature: {
+        saveAsImage: {}
+      }
+    },
     xAxis: {
       type: 'category',
       data: ['Matcha Latte', 'Milk Tea', 'Cheese Cocoa', 'Walnut Brownie']
