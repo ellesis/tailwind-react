@@ -9,6 +9,8 @@ import LineAreaChart from '../components/charts/LineAreaChart'
 import BarChart from '../components/charts/BarChart'
 import BarChartWithTooltip from '../components/charts/BarChartWithTooltip'
 
+import GraphChart from '../components/charts/GraphChart'
+
 /**
  * echart components sample
  */
@@ -21,6 +23,8 @@ export default function PageChart() {
 
       <BarChart />
       <BarChartWithTooltip title="Bar Chart With Tooltip" />
+
+      <GraphChart title="Graph Chart"></GraphChart>
     </LayoutOrange>
   )
 }
