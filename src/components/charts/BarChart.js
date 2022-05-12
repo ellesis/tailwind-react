@@ -11,6 +11,14 @@ export default function BarChart() {
         saveAsImage: {}
       }
     },
+    legend: {
+      data: ['2015', '2016', '2017'],
+      type: 'scroll',
+      orient: 'vertical',
+      right: 10,
+      top: '40%',
+      bottom: 20
+    },
     xAxis: {
       type: 'category',
       data: ['Matcha Latte', 'Milk Tea', 'Cheese Cocoa', 'Walnut Brownie']
