@@ -14,7 +14,7 @@ export default function FunnelChart({ title }) {
     toolbox: {
       feature: {
         dataView: { readOnly: false },
-        restore: {},
+        restore: { show: true, title: 'Reload' },
         saveAsImage: {}
       }
     },
