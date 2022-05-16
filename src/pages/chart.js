@@ -7,11 +7,14 @@ import LineChart from '../components/charts/LineChart'
 import LineAreaChart from '../components/charts/LineAreaChart'
 
 import BarChart from '../components/charts/BarChart'
+
 import BarChartWithTooltip from '../components/charts/BarChartWithTooltip'
 
 import PieChart from '../components/charts/PieChart'
 
 import FunnelChart from '../components/charts/FunnelChart'
+
+import HeatMap from '../components/charts/HeatMap'
 
 import GraphChart from '../components/charts/GraphChart'
 
@@ -31,6 +34,8 @@ export default function PageChart() {
       <PieChart title="Pie Chart"></PieChart>
 
       <FunnelChart title="Funnel Chart"></FunnelChart>
+
+      <HeatMap title="HeatMap Chart"></HeatMap>
 
       <GraphChart title="Graph Chart"></GraphChart>
     </LayoutOrange>
