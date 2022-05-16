@@ -9,6 +9,8 @@ import LineAreaChart from '../components/charts/LineAreaChart'
 import BarChart from '../components/charts/BarChart'
 import BarChartWithTooltip from '../components/charts/BarChartWithTooltip'
 
+import PieChart from '../components/charts/PieChart'
+
 import FunnelChart from '../components/charts/FunnelChart'
 
 import GraphChart from '../components/charts/GraphChart'
@@ -26,7 +28,9 @@ export default function PageChart() {
       <BarChart />
       <BarChartWithTooltip title="Bar Chart With Tooltip" />
 
-      <FunnelChart title="FunnelChart"></FunnelChart>
+      <PieChart title="Pie Chart"></PieChart>
+
+      <FunnelChart title="Funnel Chart"></FunnelChart>
 
       <GraphChart title="Graph Chart"></GraphChart>
     </LayoutOrange>
