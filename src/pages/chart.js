@@ -7,8 +7,8 @@ import LineChart from '../components/charts/LineChart'
 import LineAreaChart from '../components/charts/LineAreaChart'
 
 import BarChart from '../components/charts/BarChart'
-
 import BarChartWithTooltip from '../components/charts/BarChartWithTooltip'
+import DynamicBarChart from '../components/charts/DynamicBarChart'
 
 import PieChart from '../components/charts/PieChart'
 
@@ -30,6 +30,7 @@ export default function PageChart() {
 
       <BarChart />
       <BarChartWithTooltip title="Bar Chart With Tooltip" />
+      <DynamicBarChart title="Dynamic Bar Chart" />
 
       <PieChart title="Pie Chart"></PieChart>
 
