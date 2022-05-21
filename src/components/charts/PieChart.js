@@ -11,6 +11,11 @@ export default function PieChart({ title }) {
     tooltip: {
       trigger: 'item'
     },
+    toolbox: {
+      feature: {
+        saveAsImage: {}
+      }
+    },
     legend: {
       orient: 'vertical',
       left: 'left'
