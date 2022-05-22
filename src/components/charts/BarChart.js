@@ -56,7 +56,7 @@ export default function BarChart() {
         </div>
         <div className="p-4 flex-auto ">
           {/* Line Chart */}
-          <ReactEcharts option={option} />
+          <ReactEcharts option={option} opts={{ renderer: 'svg', locale: 'FR' }} />
         </div>
       </div>
     </>
