@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, {useState, useEffect} from 'react'
 import ReactEcharts from 'echarts-for-react'
 
 import cloneDeep from 'lodash.clonedeep'
@@ -6,7 +6,7 @@ import cloneDeep from 'lodash.clonedeep'
 //<DynamicBarChart title="Daily Sales Chart"></DynamicBarChart>
 // https://git.hust.cc/echarts-for-react/examples/dynamic
 
-const DynamicBarChart = ({ title }) => {
+const DynamicBarChart = ({title}) => {
   //Chart style
   const style = {
     height: '80vh',
@@ -26,7 +26,7 @@ const DynamicBarChart = ({ title }) => {
     toolbox: {
       show: true,
       feature: {
-        dataView: { readOnly: false },
+        dataView: {readOnly: false},
         restore: {},
         saveAsImage: {}
       }
@@ -122,11 +122,6 @@ const DynamicBarChart = ({ title }) => {
         type: 'bar',
         xAxisIndex: 1,
         yAxisIndex: 1,
-        itemStyle: {
-          normal: {
-            barBorderRadius: 4
-          }
-        },
         animationEasing: 'elasticOut',
         animationDelay: function (idx) {
           return idx * 10
