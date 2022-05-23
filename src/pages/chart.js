@@ -10,6 +10,10 @@ import BarChart from '../components/charts/BarChart'
 import BarChartWithTooltip from '../components/charts/BarChartWithTooltip'
 import DynamicBarChart from '../components/charts/DynamicBarChart'
 
+import GaugeChart from '../components/charts/GaugeChart'
+import GaugeGradeChart from '../components/charts/GaugeGradeChart'
+import GaugeSpeedChart from '../components/charts/GaugeSpeedChart'
+
 import PieChart from '../components/charts/PieChart'
 
 import FunnelChart from '../components/charts/FunnelChart'
@@ -31,6 +35,10 @@ export default function PageChart() {
       <BarChart />
       <BarChartWithTooltip title="Bar Chart With Tooltip" />
       <DynamicBarChart title="Dynamic Bar Chart" />
+
+      <GaugeChart title="Gauge Chart"></GaugeChart>
+      <GaugeGradeChart title="Gauge Speed Chart"></GaugeGradeChart>
+      <GaugeSpeedChart title="Gauge Speed Chart"></GaugeSpeedChart>
 
       <PieChart title="Pie Chart"></PieChart>
 
