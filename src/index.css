@@ -42,6 +42,10 @@ code {
     @apply text-gray-700 text-4xl font-semibold py-4;
   }
 
+  .subtitle {
+    @apply text-gray-700 text-2xl font-semibold py-4;
+  }
+
   /* Buttons */
   /* no-color full round button and hover bigger - bg-secondary-100 text-secondary-200 */
   .btn-rounded-full-hover-bigger {
