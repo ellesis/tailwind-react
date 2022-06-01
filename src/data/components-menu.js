@@ -1,6 +1,6 @@
-import { FaHome, FaTable, FaWpforms } from 'react-icons/fa' // Font awesome
-import { BsMenuButton, BsUiRadios, BsCreditCard2Front } from 'react-icons/bs' // Bootstrap
-import { MdSmartButton } from 'react-icons/md' // Material-design
+import {FaHome, FaTable, FaWpforms} from 'react-icons/fa' // Font awesome
+import {BsMenuButton, BsUiRadios, BsCreditCard2Front} from 'react-icons/bs' // Bootstrap
+import {MdSmartButton, MdOutlineCheckBox, MdCheckBoxOutlineBlank} from 'react-icons/md' // Material-design
 
 export const menuItems = [
   {
@@ -19,16 +19,25 @@ export const menuItems = [
     iconTag: <MdSmartButton />
   },
   {
+    title: 'Input',
+    href: 'input',
+    iconTag: <MdCheckBoxOutlineBlank />
+  },
+  {
     title: 'Radio',
     href: 'radio',
     iconTag: <BsUiRadios />
+  },
+  {
+    title: 'Check',
+    href: 'check',
+    iconTag: <MdOutlineCheckBox />
   },
   {
     title: 'Combo Select',
     href: 'combo',
     iconTag: <BsMenuButton />
   },
-
   {
     title: 'Table',
     href: 'table',

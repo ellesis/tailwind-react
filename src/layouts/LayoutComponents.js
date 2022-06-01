@@ -1,15 +1,18 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 
 import SideMenuGray from '../components/sidebars/SideMenuGray'
-import { menuItems } from '../data/components-menu'
+import {menuItems} from '../data/components-menu'
 
 // views
 import PageButton from '../pages/components/button'
 import PageCard from '../pages/components/card'
+import PageInput from '../pages/components/input'
 import PageCombo from '../pages/components/combo'
 import PageForm from '../pages/components/form'
 import PageRadio from '../pages/components/radio'
+import PageCheck from '../pages/components/check'
+
 import PageTable from '../pages/components/table'
 
 /**
@@ -35,9 +38,11 @@ export default function LayoutComponents() {
           <Routes>
             <Route path="button" element={<PageButton />} />
             <Route path="card" element={<PageCard />} />
+            <Route path="input" element={<PageInput />} />
             <Route path="combo" element={<PageCombo />} />
             <Route path="form" element={<PageForm />} />
             <Route path="radio" element={<PageRadio />} />
+            <Route path="check" element={<PageCheck />} />
             <Route path="table" element={<PageTable />} />
 
             <Route path="/" element={<PageCard />} />
