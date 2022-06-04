@@ -1,9 +1,12 @@
 import React from 'react'
 
-const BadgedCard = ({imgUrl, title, subTitle, badge = ''}) => {
+/**
+ <BadgedCard imgUrl, title={} subTitle={} badge={'77'} />
+ */
+const BadgedCard = ({imgUrl, title = '', subTitle = '', badge = ''}) => {
   return (
-    <div className="bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
-      <img src={`${imgUrl}`} alt="Badged Card Image" className="w-fill h-32 sm:h-48 object-cover" />
+    <div className="bg-white max-w-xs rounded overflow-hidden shadow-md relative hover:shadow-lg">
+      <img src={`${imgUrl}`} alt="Badged Card" className="w-fill sm:h-48 object-cover" />
       <div className="m-4">
         <span className="font-bold">{title}</span>
         <span className="block text-gray-500 text-sm">{subTitle}</span>

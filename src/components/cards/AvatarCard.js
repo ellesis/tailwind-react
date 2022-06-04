@@ -6,7 +6,7 @@ const AvatarCard = () => {
       <img
         className="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0"
         src={require('../../assets/img/avatar/girl.png')}
-        alt="Avatar Image"
+        alt="Avatar"
       />
       <div className="text-center space-y-2 sm:text-left">
         <div className="space-y-0.5">

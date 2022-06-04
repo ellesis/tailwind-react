@@ -9,7 +9,7 @@ export default function UserProfileCard() {
             <div className="w-full px-4 flex justify-center">
               <div className="relative">
                 <img
-                  alt="User Photo"
+                  alt="User"
                   src={require('../../assets/img/avatar/girl.png')}
                   className="shadow-xl rounded-full h-auto align-middle border-none -m-16 -ml-20 lg:-ml-16 max-w-[140px]"
                 />
