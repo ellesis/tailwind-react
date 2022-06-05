@@ -14,7 +14,7 @@ export default function PageRadio() {
             //   required: 'Please select a job type'
             // })}
           />
-          Part time
+          Radio Button
         </label>
       </div>
     </>
