@@ -34,7 +34,7 @@ export default function LayoutComponents() {
 
           <SideMenuGray menuItems={menuItems} />
         </aside>
-        <main className="h-full  flex-1 px-16 py-6 bg-gray-100">
+        <main className="h-full min-h-screen flex-1 px-16 py-6 bg-gray-100">
           <Routes>
             <Route path="button" element={<PageButton />} />
             <Route path="card" element={<PageCard />} />
