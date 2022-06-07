@@ -50,17 +50,17 @@ export default function PageCard() {
 
       <div className="pt-4">
         {/* Card-05  */}
-        <div class="w-full max-w-lg overflow-hidden rounded-lg shadow-lg sm:flex">
-          <div class="w-full sm:w-1/3">
+        <div className="w-full max-w-lg overflow-hidden rounded-lg shadow-lg sm:flex">
+          <div className="w-full sm:w-1/3">
             <img
-              class="object-cover w-full h-48"
+              className="object-cover w-full h-48"
               src="https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
               alt="Flower and sky"
             />
           </div>
-          <div class="flex-1 px-6 py-4">
-            <h4 class="mb-3 text-xl font-semibold tracking-tight text-gray-800">This is the title</h4>
-            <p class="leading-normal text-gray-700">
+          <div className="flex-1 px-6 py-4">
+            <h4 className="mb-3 text-xl font-semibold tracking-tight text-gray-800">This is the title</h4>
+            <p className="leading-normal text-gray-700">
               Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum
               maiores sequi nam tenetur laud.
             </p>
@@ -70,15 +70,15 @@ export default function PageCard() {
 
       <div className="pt-4">
         {/* Card image with text over */}
-        <div class="relative max-w-xs overflow-hidden rounded-lg shadow-lg">
+        <div className="relative max-w-xs overflow-hidden rounded-lg shadow-lg">
           <img
-            class="object-cover w-full h-48"
+            className="object-cover w-full h-48"
             src="https://images.pexels.com/photos/1274260/pexels-photo-1274260.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             alt="Flower and sky"
           />
-          <div class="absolute top-0 left-0 px-6 py-4">
-            <h4 class="mb-3 text-xl font-semibold tracking-tight text-white">This is the title</h4>
-            <p class="leading-normal text-gray-100">
+          <div className="absolute top-0 left-0 px-6 py-4">
+            <h4 className="mb-3 text-xl font-semibold tracking-tight text-white">This is the title</h4>
+            <p className="leading-normal text-gray-100">
               Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum
               maiores sequi nam tenetur laud.
             </p>

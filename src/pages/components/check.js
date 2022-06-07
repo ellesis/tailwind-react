@@ -6,9 +6,9 @@ export default function PageCheck() {
       <div className="title">Check Box</div>
       <div>
         {/* CheckBox-01 */}
-        <label class="text-gray-700">
+        <label className="text-gray-700">
           <input type="checkbox" value="" />
-          <span class="ml-1">Lorem ipsum dolor sit</span>
+          <span className="ml-1">Lorem ipsum dolor sit</span>
         </label>
       </div>
     </>

@@ -3,19 +3,25 @@ import React from 'react'
 export default function CollapsibleSidebar() {
   return (
     <>
-      <div class="sticky top-0 pt-12 px-2 w-full">
-        <div class="absolute right-2 top-2 cursor-pointer">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <div className="sticky top-0 pt-12 px-2 w-full">
+        <div className="absolute right-2 top-2 cursor-pointer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
           </svg>
         </div>
         <nav>
-          <ul class="flex flex-col overflow-hidden space-y-2">
-            <li class="hover:text-gray-200 h-8">
-              <a href="#" class="flex items-center h-8">
+          <ul className="flex flex-col overflow-hidden space-y-2">
+            <li className="hover:text-gray-200 h-8">
+              <a href="#" className="flex items-center h-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 mr-1 inline-block"
+                  className="h-5 w-5 mr-1 inline-block"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -31,11 +37,11 @@ export default function CollapsibleSidebar() {
                 <span>Home</span>
               </a>
             </li>
-            <li class="hover:text-gray-200 h-8">
-              <a href="#" class="flex items-center h-8">
+            <li className="hover:text-gray-200 h-8">
+              <a href="#" className="flex items-center h-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 mr-1"
+                  className="h-5 w-5 mr-1"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -51,11 +57,11 @@ export default function CollapsibleSidebar() {
                 <span>Learn</span>
               </a>
             </li>
-            <li class="hover:text-gray-200 h-8">
-              <a href="#" class="flex items-center h-8">
+            <li className="hover:text-gray-200 h-8">
+              <a href="#" className="flex items-center h-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 mr-1"
+                  className="h-5 w-5 mr-1"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -71,11 +77,11 @@ export default function CollapsibleSidebar() {
                 <span>About</span>
               </a>
             </li>
-            <li class="flex items-center hover:text-gray-200 h-8">
-              <a href="#" class="flex items-center h-8">
+            <li className="flex items-center hover:text-gray-200 h-8">
+              <a href="#" className="flex items-center h-8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 mr-1"
+                  className="h-5 w-5 mr-1"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
