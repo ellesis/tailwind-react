@@ -118,6 +118,34 @@ export default function PageButton() {
           <span>With icon</span>
         </button>
 
+        {/* Button with icon left-2 */}
+        <button className="inline-flex items-center px-6 py-2 text-indigo-100 bg-indigo-700 rounded-full hover:bg-indigo-800">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-4 h-4 mr-2 text-green-800 bg-white rounded-full"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Button</span>
+        </button>
+
+        {/* Button with icon left-3 */}
+        <button className="inline-flex items-center px-6 py-2 text-red-100 bg-red-700 rounded-full hover:bg-red-800">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-4 h-4 mr-2 text-green-800 bg-white rounded-full"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>Button</span>
+        </button>
+
         {/* Icon button */}
         <button className="inline-flex items-center justify-center w-10 h-10 mr-2 text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-full focus:shadow-outline hover:bg-indigo-800">
           <svg className="w-4 h-4 fill-current" viewBox="0 0 20 20">
