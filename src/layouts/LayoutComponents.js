@@ -9,9 +9,10 @@ import PageButton from '../pages/components/button'
 import PageCard from '../pages/components/card'
 import PageInput from '../pages/components/input'
 import PageCombo from '../pages/components/combo'
-import PageForm from '../pages/components/form'
 import PageRadio from '../pages/components/radio'
 import PageCheck from '../pages/components/check'
+import PageForm from '../pages/components/form'
+import PageAvatar from '../pages/components/avatar'
 
 import PageTable from '../pages/components/table'
 
@@ -44,6 +45,7 @@ export default function LayoutComponents() {
             <Route path="radio" element={<PageRadio />} />
             <Route path="check" element={<PageCheck />} />
             <Route path="table" element={<PageTable />} />
+            <Route path="avatar" element={<PageAvatar />} />
 
             <Route path="/" element={<PageCard />} />
           </Routes>

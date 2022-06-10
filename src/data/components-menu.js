@@ -1,6 +1,6 @@
 import {FaHome, FaTable, FaWpforms} from 'react-icons/fa' // Font awesome
 import {BsMenuButton, BsUiRadios, BsCreditCard2Front} from 'react-icons/bs' // Bootstrap
-import {MdSmartButton, MdOutlineCheckBox, MdCheckBoxOutlineBlank} from 'react-icons/md' // Material-design
+import {MdSmartButton, MdOutlineCheckBox, MdCheckBoxOutlineBlank, MdFace} from 'react-icons/md' // Material-design
 
 export const menuItems = [
   {
@@ -47,5 +47,10 @@ export const menuItems = [
     title: 'From',
     href: 'form',
     iconTag: <FaWpforms />
+  },
+  {
+    title: 'Avatar',
+    href: 'avatar',
+    iconTag: <MdFace />
   }
 ]
