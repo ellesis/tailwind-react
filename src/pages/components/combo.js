@@ -1,10 +1,15 @@
 import React from 'react'
+import UserDropdown from '../../components/dropdowns/UserDropdown'
 
 export default function PageCombo() {
   return (
     <>
-      <div className="title">Dropdown Button</div>
+      <div className="subtitle">Dropdown Button - popper.js</div>
+      <div className="flex">
+        <UserDropdown />
+      </div>
 
+      <div className="subtitle">Dropdown Button UI</div>
       <div className="p-10">
         <div className="dropdown inline-block relative">
           <button className="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
@@ -62,7 +67,7 @@ export default function PageCombo() {
         {/*  */}
       </div>
 
-      <div className="title">Select Option</div>
+      <div className="subtitle">Select Option</div>
       {/* select-01 */}
       <div className="inline-block relative w-64">
         <select
