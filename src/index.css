@@ -43,7 +43,7 @@ code {
   }
 
   .subtitle {
-    @apply text-gray-700 text-2xl font-semibold py-4;
+    @apply text-sky-500 text-2xl font-semibold py-4;
   }
 
   /* Buttons */
