@@ -22,6 +22,9 @@ import HeatMap from '../components/charts/HeatMap'
 
 import GraphChart from '../components/charts/GraphChart'
 
+import Chart from '../components/charts/Chart'
+import bars from '../components/charts/chart-data/bars'
+
 /**
  * echart components sample
  */
@@ -44,6 +47,9 @@ export default function PageChart() {
 
       <FunnelChart title="Funnel Chart"></FunnelChart>
 
+      <div style={{width: '50%', height: 300}}>
+        <Chart options={bars} />
+      </div>
       <HeatMap title="HeatMap Chart"></HeatMap>
 
       <GraphChart title="Graph Chart"></GraphChart>
