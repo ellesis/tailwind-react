@@ -18,6 +18,7 @@ import PieChart from '../components/charts/PieChart'
 
 import FunnelChart from '../components/charts/FunnelChart'
 
+import Calendar from '../components/charts/Calendar'
 import HeatMap from '../components/charts/HeatMap'
 
 import GraphChart from '../components/charts/GraphChart'
@@ -50,6 +51,8 @@ export default function PageChart() {
       <div style={{width: '50%', height: 300}}>
         <Chart options={bars} />
       </div>
+
+      <Calendar title="Calendar"></Calendar>
       <HeatMap title="HeatMap Chart"></HeatMap>
 
       <GraphChart title="Graph Chart"></GraphChart>
