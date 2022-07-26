@@ -13,7 +13,7 @@ export default function Layout({children}) {
 
   const handleResize = () => {
     // console.info('resized to: ', window.innerWidth, 'x', window.innerHeight)
-    if (window.innerWidth < 800) setIsSmallWin(true)
+    if (window.innerWidth < 768) setIsSmallWin(true)
     else setIsSmallWin(false)
   }
 
