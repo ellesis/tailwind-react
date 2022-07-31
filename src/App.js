@@ -9,6 +9,7 @@ import Chart from './pages/chart'
 import PageEgg from './pages/page-egg'
 import PageLayout from './pages/page-layout'
 import PageMain from './pages/page-main'
+import PageCollapseMenu from './pages/page-collapse-menu'
 
 // Layout
 import RightSlide from './pages/right-slide'
@@ -34,6 +35,7 @@ function App() {
       <Route path="/main" element={<PageMain />} />
 
       <Route path="/yokose" element={<Yokose />} />
+      <Route path="/collapse-menu" element={<PageCollapseMenu />} />
       <Route path="/green" element={<Green />} />
       <Route path="/right-slide" element={<RightSlide />} />
       <Route path="/better" element={<Better />} />

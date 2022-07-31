@@ -59,6 +59,11 @@ export const menuItems = [
     iconTag: <HiViewGridAdd />
   },
   {
+    title: 'Collapse Menu Layout',
+    href: '/collapse-menu',
+    iconTag: <HiViewGridAdd />
+  },
+  {
     title: 'Egg',
     href: '/egg',
     iconTag: <BsEgg />
